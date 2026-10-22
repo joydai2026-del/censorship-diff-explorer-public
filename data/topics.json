@@ -1,0 +1,14 @@
+{
+  "notice": "Demo keyword list made for the sample data. It is not a real list of censored words.",
+  "topics": [
+    { "id": "environment", "label_en": "Environment", "label_zh": "环境", "keywords": ["污染", "排放", "黑烟", "化工厂", "pollution", "smoke"] },
+    { "id": "food", "label_en": "Food safety", "label_zh": "食品安全", "keywords": ["奶粉", "过期", "食物中毒", "食堂", "expired", "food poisoning"] },
+    { "id": "labor", "label_en": "Wages and work", "label_zh": "欠薪劳工", "keywords": ["欠薪", "工资", "讨薪", "停工", "wages", "unpaid"] },
+    { "id": "health", "label_en": "Health", "label_zh": "公共卫生", "keywords": ["医院", "发烧", "疫苗", "病人", "hospital", "vaccine"] },
+    { "id": "housing", "label_en": "Housing", "label_zh": "房产", "keywords": ["烂尾", "交房", "业主", "停贷", "unfinished", "homeowners"] },
+    { "id": "disaster", "label_en": "Accidents and floods", "label_zh": "灾害事故", "keywords": ["暴雨", "倒塌", "爆炸", "救援", "flood", "collapse"] },
+    { "id": "officials", "label_en": "Officials", "label_zh": "官员问责", "keywords": ["官员", "领导", "问责", "贪", "official", "corruption"] },
+    { "id": "gathering", "label_en": "Gatherings and petitions", "label_zh": "聚集维权", "keywords": ["聚集", "维权", "横幅", "请愿", "petition", "banner"] },
+    { "id": "speech", "label_en": "Speech and deletion", "label_zh": "言论删帖", "keywords": ["删帖", "封号", "404", "敏感词", "deleted", "censored"] }
+  ]
+}

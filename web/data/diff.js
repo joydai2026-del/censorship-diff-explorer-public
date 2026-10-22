@@ -1,0 +1,2262 @@
+window.CDE_DATA = {
+  "meta": {
+    "sample": true,
+    "notice": "Sample data for demo, not real posts",
+    "platform": "sample-microblog (fictional)",
+    "snapshotCount": 9,
+    "firstCapture": "2026-09-01T09:00:00+08:00",
+    "lastCapture": "2026-09-08T09:00:00+08:00",
+    "tzOffsetMinutes": 480,
+    "topics": [
+      {
+        "id": "environment",
+        "label_en": "Environment",
+        "label_zh": "环境"
+      },
+      {
+        "id": "food",
+        "label_en": "Food safety",
+        "label_zh": "食品安全"
+      },
+      {
+        "id": "labor",
+        "label_en": "Wages and work",
+        "label_zh": "欠薪劳工"
+      },
+      {
+        "id": "health",
+        "label_en": "Health",
+        "label_zh": "公共卫生"
+      },
+      {
+        "id": "housing",
+        "label_en": "Housing",
+        "label_zh": "房产"
+      },
+      {
+        "id": "disaster",
+        "label_en": "Accidents and floods",
+        "label_zh": "灾害事故"
+      },
+      {
+        "id": "officials",
+        "label_en": "Officials",
+        "label_zh": "官员问责"
+      },
+      {
+        "id": "gathering",
+        "label_en": "Gatherings and petitions",
+        "label_zh": "聚集维权"
+      },
+      {
+        "id": "speech",
+        "label_en": "Speech and deletion",
+        "label_zh": "言论删帖"
+      }
+    ],
+    "skippedSnapshots": [
+      {
+        "captured_at": "2026-09-07T09:00:00+08:00",
+        "reason": "10 of 12 posts vanished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored"
+      }
+    ],
+    "warnings": []
+  },
+  "days": [
+    {
+      "date": "2026-09-01",
+      "deleted": []
+    },
+    {
+      "date": "2026-09-02",
+      "deleted": [
+        {
+          "id": "s001",
+          "account": "sample_bamboo_cat 示例_竹林小猫",
+          "text": "示例市化工厂昨晚又冒黑烟，整条街都是味道，孩子咳了一夜。",
+          "text_versions": [
+            {
+              "text": "示例市化工厂昨晚又冒黑烟，整条街都是味道，孩子咳了一夜。",
+              "seen_at": "2026-09-01T09:00:00+08:00"
+            }
+          ],
+          "gloss": "The Sample City chemical plant was pouring out black smoke again last night. The whole street smells, and my kid coughed all night.",
+          "posted_at": "2026-08-31T21:10:00+08:00",
+          "first_seen": "2026-09-01T09:00:00+08:00",
+          "last_seen": "2026-09-01T09:00:00+08:00",
+          "status": "deleted",
+          "deleted_by": "2026-09-02T09:00:00+08:00",
+          "deleted_date": "2026-09-02",
+          "hours_alive_min": 11.83,
+          "hours_alive_max": 35.83,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "environment"
+          ],
+          "keywords": [
+            "黑烟",
+            "化工厂",
+            "smoke"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "deleted": [
+        {
+          "id": "s003",
+          "account": "sample_noodle_stand 示例_面馆老板",
+          "text": "虚构县学校食堂用过期的肉，家长们在群里都炸了。",
+          "text_versions": [
+            {
+              "text": "虚构县学校食堂用过期的肉，家长们在群里都炸了。",
+              "seen_at": "2026-09-01T09:00:00+08:00"
+            }
+          ],
+          "gloss": "A school cafeteria in Fictional County used expired meat. Parents in the group chat are furious.",
+          "posted_at": "2026-09-01T07:30:00+08:00",
+          "first_seen": "2026-09-01T09:00:00+08:00",
+          "last_seen": "2026-09-02T09:00:00+08:00",
+          "status": "deleted",
+          "deleted_by": "2026-09-03T09:00:00+08:00",
+          "deleted_date": "2026-09-03",
+          "hours_alive_min": 25.5,
+          "hours_alive_max": 49.5,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [
+            "s030"
+          ],
+          "repost_of": null,
+          "tags": [
+            "food"
+          ],
+          "keywords": [
+            "过期",
+            "食堂",
+            "expired"
+          ]
+        },
+        {
+          "id": "s006",
+          "account": "sample_night_owl 示例_夜猫子",
+          "text": "刚才那条帖子被删了，再发一次：示例市化工厂昨晚又冒黑烟。",
+          "text_versions": [
+            {
+              "text": "刚才那条帖子被删了，再发一次：示例市化工厂昨晚又冒黑烟。",
+              "seen_at": "2026-09-02T09:00:00+08:00"
+            }
+          ],
+          "gloss": "My last post got deleted, posting again: the Sample City chemical plant was pouring out black smoke again last night.",
+          "posted_at": "2026-09-01T23:55:00+08:00",
+          "first_seen": "2026-09-02T09:00:00+08:00",
+          "last_seen": "2026-09-02T09:00:00+08:00",
+          "status": "deleted",
+          "deleted_by": "2026-09-03T09:00:00+08:00",
+          "deleted_date": "2026-09-03",
+          "hours_alive_min": 9.08,
+          "hours_alive_max": 33.08,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "environment",
+            "speech"
+          ],
+          "keywords": [
+            "黑烟",
+            "化工厂",
+            "smoke",
+            "deleted"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "deleted": [
+        {
+          "id": "s005",
+          "account": "sample_rainy_window 示例_雨窗",
+          "text": "样本河边的工地，三个月没发工资了，工人们今天去讨薪。",
+          "text_versions": [
+            {
+              "text": "样本河边的工地，三个月没发工资了，工人们今天去讨薪。",
+              "seen_at": "2026-09-02T09:00:00+08:00"
+            },
+            {
+              "text": "样本河边的工地，听说工资还没发。",
+              "seen_at": "2026-09-03T09:00:00+08:00"
+            }
+          ],
+          "gloss": "The building site by Sample River has not paid wages in three months. Workers went to demand their pay today.",
+          "posted_at": "2026-09-01T12:40:00+08:00",
+          "first_seen": "2026-09-02T09:00:00+08:00",
+          "last_seen": "2026-09-03T09:00:00+08:00",
+          "status": "deleted",
+          "deleted_by": "2026-09-04T09:00:00+08:00",
+          "deleted_date": "2026-09-04",
+          "hours_alive_min": 44.33,
+          "hours_alive_max": 68.33,
+          "edited": true,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "labor"
+          ],
+          "keywords": [
+            "工资",
+            "讨薪",
+            "wages"
+          ]
+        },
+        {
+          "id": "s008",
+          "account": "sample_river_watch 示例_样本河观察",
+          "text": "暴雨之后虚构县的老桥倒塌了，救援队还在找人。",
+          "text_versions": [
+            {
+              "text": "暴雨之后虚构县的老桥倒塌了，救援队还在找人。",
+              "seen_at": "2026-09-03T09:00:00+08:00"
+            }
+          ],
+          "gloss": "After the heavy rain, the old bridge in Fictional County collapsed. Rescue teams are still searching for people.",
+          "posted_at": "2026-09-02T14:20:00+08:00",
+          "first_seen": "2026-09-03T09:00:00+08:00",
+          "last_seen": "2026-09-03T09:00:00+08:00",
+          "status": "deleted",
+          "deleted_by": "2026-09-04T09:00:00+08:00",
+          "deleted_date": "2026-09-04",
+          "hours_alive_min": 18.67,
+          "hours_alive_max": 42.67,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "disaster"
+          ],
+          "keywords": [
+            "暴雨",
+            "倒塌",
+            "救援",
+            "collapse"
+          ]
+        },
+        {
+          "id": "s009",
+          "account": "sample_bamboo_cat 示例_竹林小猫",
+          "text": "示例小区烂尾三年，业主们商量要不要停贷。",
+          "text_versions": [
+            {
+              "text": "示例小区烂尾三年，业主们商量要不要停贷。",
+              "seen_at": "2026-09-03T09:00:00+08:00"
+            }
+          ],
+          "gloss": "Our Sample Estate housing project has sat unfinished for three years. Homeowners are discussing stopping mortgage payments.",
+          "posted_at": "2026-09-02T18:05:00+08:00",
+          "first_seen": "2026-09-03T09:00:00+08:00",
+          "last_seen": "2026-09-03T09:00:00+08:00",
+          "status": "deleted",
+          "deleted_by": "2026-09-04T09:00:00+08:00",
+          "deleted_date": "2026-09-04",
+          "hours_alive_min": 14.92,
+          "hours_alive_max": 38.92,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "housing"
+          ],
+          "keywords": [
+            "烂尾",
+            "业主",
+            "停贷",
+            "unfinished",
+            "homeowners"
+          ]
+        },
+        {
+          "id": "s030",
+          "account": "sample_paper_kite 示例_纸风筝",
+          "text": "虚构县学校食堂用过期的肉，家长们在群里都炸了。",
+          "text_versions": [
+            {
+              "text": "虚构县学校食堂用过期的肉，家长们在群里都炸了。",
+              "seen_at": "2026-09-03T09:00:00+08:00"
+            }
+          ],
+          "gloss": "A school cafeteria in Fictional County used expired meat. Parents in the group chat are furious.",
+          "posted_at": "2026-09-02T21:00:00+08:00",
+          "first_seen": "2026-09-03T09:00:00+08:00",
+          "last_seen": "2026-09-03T09:00:00+08:00",
+          "status": "deleted",
+          "deleted_by": "2026-09-04T09:00:00+08:00",
+          "deleted_date": "2026-09-04",
+          "hours_alive_min": 12,
+          "hours_alive_max": 36,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": "s003",
+          "tags": [
+            "food"
+          ],
+          "keywords": [
+            "过期",
+            "食堂",
+            "expired"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "deleted": [
+        {
+          "id": "s012",
+          "account": "sample_blue_bicycle 示例_蓝色单车",
+          "text": "示例市一位领导的亲戚中标了全部路灯工程，大家怎么看？",
+          "text_versions": [
+            {
+              "text": "示例市一位领导的亲戚中标了全部路灯工程，大家怎么看？",
+              "seen_at": "2026-09-04T09:00:00+08:00"
+            }
+          ],
+          "gloss": "A relative of a Sample City official won every streetlight contract. What does everyone think?",
+          "posted_at": "2026-09-03T11:11:00+08:00",
+          "first_seen": "2026-09-04T09:00:00+08:00",
+          "last_seen": "2026-09-04T09:00:00+08:00",
+          "status": "deleted",
+          "deleted_by": "2026-09-05T09:00:00+08:00",
+          "deleted_date": "2026-09-05",
+          "hours_alive_min": 21.82,
+          "hours_alive_max": 45.82,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "officials"
+          ],
+          "keywords": [
+            "领导",
+            "official"
+          ]
+        },
+        {
+          "id": "s014",
+          "account": "sample_rainy_window 示例_雨窗",
+          "text": "业主们在售楼处门口拉横幅维权，要求按时交房。",
+          "text_versions": [
+            {
+              "text": "业主们在售楼处门口拉横幅维权，要求按时交房。",
+              "seen_at": "2026-09-04T09:00:00+08:00"
+            }
+          ],
+          "gloss": "Homeowners held up a banner outside the sales office, demanding their homes be delivered on time.",
+          "posted_at": "2026-09-03T22:40:00+08:00",
+          "first_seen": "2026-09-04T09:00:00+08:00",
+          "last_seen": "2026-09-04T09:00:00+08:00",
+          "status": "deleted",
+          "deleted_by": "2026-09-05T09:00:00+08:00",
+          "deleted_date": "2026-09-05",
+          "hours_alive_min": 10.33,
+          "hours_alive_max": 34.33,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "housing",
+            "gathering"
+          ],
+          "keywords": [
+            "交房",
+            "业主",
+            "homeowners",
+            "维权",
+            "横幅",
+            "banner"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "deleted": [
+        {
+          "id": "s015",
+          "account": "sample_paper_kite 示例_纸风筝",
+          "text": "我的上一条被删帖了，说是有敏感词。到底哪个词？",
+          "text_versions": [
+            {
+              "text": "我的上一条被删帖了，说是有敏感词。到底哪个词？",
+              "seen_at": "2026-09-04T09:00:00+08:00"
+            }
+          ],
+          "gloss": "My last post was deleted for a \"sensitive word\". Which word, though?",
+          "posted_at": "2026-09-04T08:30:00+08:00",
+          "first_seen": "2026-09-04T09:00:00+08:00",
+          "last_seen": "2026-09-05T09:00:00+08:00",
+          "status": "deleted",
+          "deleted_by": "2026-09-05T16:20:00Z",
+          "deleted_date": "2026-09-06",
+          "hours_alive_min": 24.5,
+          "hours_alive_max": 39.83,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "speech"
+          ],
+          "keywords": [
+            "删帖",
+            "敏感词",
+            "deleted"
+          ]
+        },
+        {
+          "id": "s017",
+          "account": "sample_bamboo_cat 示例_竹林小猫",
+          "text": "虚构县婴儿奶粉抽检不合格的名单，为什么不公布？",
+          "text_versions": [
+            {
+              "text": "虚构县婴儿奶粉抽检不合格的名单，为什么不公布？",
+              "seen_at": "2026-09-05T09:00:00+08:00"
+            }
+          ],
+          "gloss": "Why has Fictional County not published the list of baby formula brands that failed inspection?",
+          "posted_at": "2026-09-04T13:45:00+08:00",
+          "first_seen": "2026-09-05T09:00:00+08:00",
+          "last_seen": "2026-09-05T09:00:00+08:00",
+          "status": "deleted",
+          "deleted_by": "2026-09-05T16:20:00Z",
+          "deleted_date": "2026-09-06",
+          "hours_alive_min": 19.25,
+          "hours_alive_max": 34.58,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "food"
+          ],
+          "keywords": [
+            "奶粉"
+          ]
+        },
+        {
+          "id": "s019",
+          "account": "sample_noodle_stand 示例_面馆老板",
+          "text": "工厂停工了，老板跑了，二百多人的工资没人管。",
+          "text_versions": [
+            {
+              "text": "工厂停工了，老板跑了，二百多人的工资没人管。",
+              "seen_at": "2026-09-05T09:00:00+08:00"
+            }
+          ],
+          "gloss": "The factory has stopped work and the boss ran off. Over two hundred people's wages are unpaid.",
+          "posted_at": "2026-09-05T07:00:00+08:00",
+          "first_seen": "2026-09-05T09:00:00+08:00",
+          "last_seen": "2026-09-05T09:00:00+08:00",
+          "status": "deleted",
+          "deleted_by": "2026-09-05T16:20:00Z",
+          "deleted_date": "2026-09-06",
+          "hours_alive_min": 2,
+          "hours_alive_max": 17.33,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "labor"
+          ],
+          "keywords": [
+            "工资",
+            "停工",
+            "wages",
+            "unpaid"
+          ]
+        },
+        {
+          "id": "s010",
+          "account": "sample_teapot_uncle 示例_茶壶大叔",
+          "text": "示例市医院发烧门诊排了四个小时，病人都坐在走廊。",
+          "text_versions": [
+            {
+              "text": "示例市医院发烧门诊排了四个小时，病人都坐在走廊。",
+              "seen_at": "2026-09-03T09:00:00+08:00"
+            }
+          ],
+          "gloss": "The fever clinic at a Sample City hospital had a four-hour line. Patients were sitting in the hallway.",
+          "posted_at": "2026-09-02T20:30:00+08:00",
+          "first_seen": "2026-09-03T09:00:00+08:00",
+          "last_seen": "2026-09-05T16:20:00Z",
+          "status": "deleted",
+          "deleted_by": "2026-09-06T09:00:00+08:00",
+          "deleted_date": "2026-09-06",
+          "hours_alive_min": 75.83,
+          "hours_alive_max": 84.5,
+          "edited": false,
+          "restored_count": 1,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "health"
+          ],
+          "keywords": [
+            "医院",
+            "发烧",
+            "病人",
+            "hospital"
+          ]
+        },
+        {
+          "id": "s018",
+          "account": "sample_teapot_uncle 示例_茶壶大叔",
+          "text": "听说示例市疫苗接种点换了供应商，有人知道是哪家吗？",
+          "text_versions": [
+            {
+              "text": "听说示例市疫苗接种点换了供应商，有人知道是哪家吗？",
+              "seen_at": "2026-09-05T09:00:00+08:00"
+            }
+          ],
+          "gloss": "I heard the Sample City vaccine site changed suppliers. Does anyone know which one?",
+          "posted_at": "2026-09-04T19:20:00+08:00",
+          "first_seen": "2026-09-05T09:00:00+08:00",
+          "last_seen": "2026-09-05T16:20:00Z",
+          "status": "deleted",
+          "deleted_by": "2026-09-06T09:00:00+08:00",
+          "deleted_date": "2026-09-06",
+          "hours_alive_min": 29,
+          "hours_alive_max": 37.67,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "health"
+          ],
+          "keywords": [
+            "疫苗",
+            "vaccine"
+          ]
+        },
+        {
+          "id": "s021",
+          "account": "sample_night_owl 示例_夜猫子",
+          "text": "示例广场下午有很多人聚集，好像是在请愿。",
+          "text_versions": [
+            {
+              "text": "示例广场下午有很多人聚集，好像是在请愿。",
+              "seen_at": "2026-09-05T09:00:00+08:00"
+            }
+          ],
+          "gloss": "A lot of people gathered at Sample Square this afternoon. It looked like a petition.",
+          "posted_at": "2026-09-05T08:00:00+08:00",
+          "first_seen": "2026-09-05T09:00:00+08:00",
+          "last_seen": "2026-09-05T16:20:00Z",
+          "status": "deleted",
+          "deleted_by": "2026-09-06T09:00:00+08:00",
+          "deleted_date": "2026-09-06",
+          "hours_alive_min": 16.33,
+          "hours_alive_max": 25,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "gathering"
+          ],
+          "keywords": [
+            "聚集",
+            "请愿",
+            "petition"
+          ]
+        },
+        {
+          "id": "s022",
+          "account": "sample_rainy_window 示例_雨窗",
+          "text": "示例广场今天人很多，有人举着牌子，警察也来了。",
+          "text_versions": [
+            {
+              "text": "示例广场今天人很多，有人举着牌子，警察也来了。",
+              "seen_at": "2026-09-05T09:00:00+08:00"
+            },
+            {
+              "text": "示例广场今天人很多。",
+              "seen_at": "2026-09-05T16:20:00Z"
+            }
+          ],
+          "gloss": "Sample Square was crowded today. Some people held signs, and the police came too.",
+          "posted_at": "2026-09-05T08:30:00+08:00",
+          "first_seen": "2026-09-05T09:00:00+08:00",
+          "last_seen": "2026-09-05T16:20:00Z",
+          "status": "deleted",
+          "deleted_by": "2026-09-06T09:00:00+08:00",
+          "deleted_date": "2026-09-06",
+          "hours_alive_min": 15.83,
+          "hours_alive_max": 24.5,
+          "edited": true,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [],
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "deleted": []
+    },
+    {
+      "date": "2026-09-08",
+      "deleted": [
+        {
+          "id": "s024",
+          "account": "sample_river_watch 示例_样本河观察",
+          "text": "虚构县化工厂排放的污水流进样本河，鱼死了一片。",
+          "text_versions": [
+            {
+              "text": "虚构县化工厂排放的污水流进样本河，鱼死了一片。",
+              "seen_at": "2026-09-06T09:00:00+08:00"
+            }
+          ],
+          "gloss": "Wastewater from the Fictional County chemical plant flowed into Sample River. A stretch of fish died.",
+          "posted_at": "2026-09-06T07:40:00+08:00",
+          "first_seen": "2026-09-06T09:00:00+08:00",
+          "last_seen": "2026-09-06T09:00:00+08:00",
+          "status": "deleted",
+          "deleted_by": "2026-09-08T09:00:00+08:00",
+          "deleted_date": "2026-09-08",
+          "hours_alive_min": 1.33,
+          "hours_alive_max": 49.33,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "environment"
+          ],
+          "keywords": [
+            "排放",
+            "化工厂"
+          ]
+        },
+        {
+          "id": "s025",
+          "account": "sample_bamboo_cat 示例_竹林小猫",
+          "text": "示例市问责名单出来了，为什么只有小官？",
+          "text_versions": [
+            {
+              "text": "示例市问责名单出来了，为什么只有小官？",
+              "seen_at": "2026-09-06T09:00:00+08:00"
+            }
+          ],
+          "gloss": "The Sample City accountability list is out. Why are only junior officials on it?",
+          "posted_at": "2026-09-06T08:20:00+08:00",
+          "first_seen": "2026-09-06T09:00:00+08:00",
+          "last_seen": "2026-09-06T09:00:00+08:00",
+          "status": "deleted",
+          "deleted_by": "2026-09-08T09:00:00+08:00",
+          "deleted_date": "2026-09-08",
+          "hours_alive_min": 0.67,
+          "hours_alive_max": 48.67,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "officials"
+          ],
+          "keywords": [
+            "问责",
+            "official"
+          ]
+        },
+        {
+          "id": "s027",
+          "account": "sample_noodle_stand 示例_面馆老板",
+          "text": "朋友的账号被封号了，只因为转发了一条讨薪视频。",
+          "text_versions": [
+            {
+              "text": "朋友的账号被封号了，只因为转发了一条讨薪视频。",
+              "seen_at": "2026-09-06T09:00:00+08:00"
+            }
+          ],
+          "gloss": "A friend's account was banned just for sharing a video about unpaid wages.",
+          "posted_at": "2026-09-06T08:00:00+08:00",
+          "first_seen": "2026-09-06T09:00:00+08:00",
+          "last_seen": "2026-09-06T09:00:00+08:00",
+          "status": "deleted",
+          "deleted_by": "2026-09-08T09:00:00+08:00",
+          "deleted_date": "2026-09-08",
+          "hours_alive_min": 1,
+          "hours_alive_max": 49,
+          "edited": false,
+          "restored_count": 0,
+          "reposted_as": [],
+          "repost_of": null,
+          "tags": [
+            "labor",
+            "speech"
+          ],
+          "keywords": [
+            "讨薪",
+            "wages",
+            "unpaid",
+            "封号"
+          ]
+        }
+      ]
+    }
+  ],
+  "deleted": [
+    {
+      "id": "s001",
+      "account": "sample_bamboo_cat 示例_竹林小猫",
+      "text": "示例市化工厂昨晚又冒黑烟，整条街都是味道，孩子咳了一夜。",
+      "text_versions": [
+        {
+          "text": "示例市化工厂昨晚又冒黑烟，整条街都是味道，孩子咳了一夜。",
+          "seen_at": "2026-09-01T09:00:00+08:00"
+        }
+      ],
+      "gloss": "The Sample City chemical plant was pouring out black smoke again last night. The whole street smells, and my kid coughed all night.",
+      "posted_at": "2026-08-31T21:10:00+08:00",
+      "first_seen": "2026-09-01T09:00:00+08:00",
+      "last_seen": "2026-09-01T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-02T09:00:00+08:00",
+      "deleted_date": "2026-09-02",
+      "hours_alive_min": 11.83,
+      "hours_alive_max": 35.83,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "environment"
+      ],
+      "keywords": [
+        "黑烟",
+        "化工厂",
+        "smoke"
+      ]
+    },
+    {
+      "id": "s003",
+      "account": "sample_noodle_stand 示例_面馆老板",
+      "text": "虚构县学校食堂用过期的肉，家长们在群里都炸了。",
+      "text_versions": [
+        {
+          "text": "虚构县学校食堂用过期的肉，家长们在群里都炸了。",
+          "seen_at": "2026-09-01T09:00:00+08:00"
+        }
+      ],
+      "gloss": "A school cafeteria in Fictional County used expired meat. Parents in the group chat are furious.",
+      "posted_at": "2026-09-01T07:30:00+08:00",
+      "first_seen": "2026-09-01T09:00:00+08:00",
+      "last_seen": "2026-09-02T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-03T09:00:00+08:00",
+      "deleted_date": "2026-09-03",
+      "hours_alive_min": 25.5,
+      "hours_alive_max": 49.5,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [
+        "s030"
+      ],
+      "repost_of": null,
+      "tags": [
+        "food"
+      ],
+      "keywords": [
+        "过期",
+        "食堂",
+        "expired"
+      ]
+    },
+    {
+      "id": "s006",
+      "account": "sample_night_owl 示例_夜猫子",
+      "text": "刚才那条帖子被删了，再发一次：示例市化工厂昨晚又冒黑烟。",
+      "text_versions": [
+        {
+          "text": "刚才那条帖子被删了，再发一次：示例市化工厂昨晚又冒黑烟。",
+          "seen_at": "2026-09-02T09:00:00+08:00"
+        }
+      ],
+      "gloss": "My last post got deleted, posting again: the Sample City chemical plant was pouring out black smoke again last night.",
+      "posted_at": "2026-09-01T23:55:00+08:00",
+      "first_seen": "2026-09-02T09:00:00+08:00",
+      "last_seen": "2026-09-02T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-03T09:00:00+08:00",
+      "deleted_date": "2026-09-03",
+      "hours_alive_min": 9.08,
+      "hours_alive_max": 33.08,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "environment",
+        "speech"
+      ],
+      "keywords": [
+        "黑烟",
+        "化工厂",
+        "smoke",
+        "deleted"
+      ]
+    },
+    {
+      "id": "s005",
+      "account": "sample_rainy_window 示例_雨窗",
+      "text": "样本河边的工地，三个月没发工资了，工人们今天去讨薪。",
+      "text_versions": [
+        {
+          "text": "样本河边的工地，三个月没发工资了，工人们今天去讨薪。",
+          "seen_at": "2026-09-02T09:00:00+08:00"
+        },
+        {
+          "text": "样本河边的工地，听说工资还没发。",
+          "seen_at": "2026-09-03T09:00:00+08:00"
+        }
+      ],
+      "gloss": "The building site by Sample River has not paid wages in three months. Workers went to demand their pay today.",
+      "posted_at": "2026-09-01T12:40:00+08:00",
+      "first_seen": "2026-09-02T09:00:00+08:00",
+      "last_seen": "2026-09-03T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-04T09:00:00+08:00",
+      "deleted_date": "2026-09-04",
+      "hours_alive_min": 44.33,
+      "hours_alive_max": 68.33,
+      "edited": true,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "labor"
+      ],
+      "keywords": [
+        "工资",
+        "讨薪",
+        "wages"
+      ]
+    },
+    {
+      "id": "s008",
+      "account": "sample_river_watch 示例_样本河观察",
+      "text": "暴雨之后虚构县的老桥倒塌了，救援队还在找人。",
+      "text_versions": [
+        {
+          "text": "暴雨之后虚构县的老桥倒塌了，救援队还在找人。",
+          "seen_at": "2026-09-03T09:00:00+08:00"
+        }
+      ],
+      "gloss": "After the heavy rain, the old bridge in Fictional County collapsed. Rescue teams are still searching for people.",
+      "posted_at": "2026-09-02T14:20:00+08:00",
+      "first_seen": "2026-09-03T09:00:00+08:00",
+      "last_seen": "2026-09-03T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-04T09:00:00+08:00",
+      "deleted_date": "2026-09-04",
+      "hours_alive_min": 18.67,
+      "hours_alive_max": 42.67,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "disaster"
+      ],
+      "keywords": [
+        "暴雨",
+        "倒塌",
+        "救援",
+        "collapse"
+      ]
+    },
+    {
+      "id": "s009",
+      "account": "sample_bamboo_cat 示例_竹林小猫",
+      "text": "示例小区烂尾三年，业主们商量要不要停贷。",
+      "text_versions": [
+        {
+          "text": "示例小区烂尾三年，业主们商量要不要停贷。",
+          "seen_at": "2026-09-03T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Our Sample Estate housing project has sat unfinished for three years. Homeowners are discussing stopping mortgage payments.",
+      "posted_at": "2026-09-02T18:05:00+08:00",
+      "first_seen": "2026-09-03T09:00:00+08:00",
+      "last_seen": "2026-09-03T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-04T09:00:00+08:00",
+      "deleted_date": "2026-09-04",
+      "hours_alive_min": 14.92,
+      "hours_alive_max": 38.92,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "housing"
+      ],
+      "keywords": [
+        "烂尾",
+        "业主",
+        "停贷",
+        "unfinished",
+        "homeowners"
+      ]
+    },
+    {
+      "id": "s030",
+      "account": "sample_paper_kite 示例_纸风筝",
+      "text": "虚构县学校食堂用过期的肉，家长们在群里都炸了。",
+      "text_versions": [
+        {
+          "text": "虚构县学校食堂用过期的肉，家长们在群里都炸了。",
+          "seen_at": "2026-09-03T09:00:00+08:00"
+        }
+      ],
+      "gloss": "A school cafeteria in Fictional County used expired meat. Parents in the group chat are furious.",
+      "posted_at": "2026-09-02T21:00:00+08:00",
+      "first_seen": "2026-09-03T09:00:00+08:00",
+      "last_seen": "2026-09-03T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-04T09:00:00+08:00",
+      "deleted_date": "2026-09-04",
+      "hours_alive_min": 12,
+      "hours_alive_max": 36,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": "s003",
+      "tags": [
+        "food"
+      ],
+      "keywords": [
+        "过期",
+        "食堂",
+        "expired"
+      ]
+    },
+    {
+      "id": "s012",
+      "account": "sample_blue_bicycle 示例_蓝色单车",
+      "text": "示例市一位领导的亲戚中标了全部路灯工程，大家怎么看？",
+      "text_versions": [
+        {
+          "text": "示例市一位领导的亲戚中标了全部路灯工程，大家怎么看？",
+          "seen_at": "2026-09-04T09:00:00+08:00"
+        }
+      ],
+      "gloss": "A relative of a Sample City official won every streetlight contract. What does everyone think?",
+      "posted_at": "2026-09-03T11:11:00+08:00",
+      "first_seen": "2026-09-04T09:00:00+08:00",
+      "last_seen": "2026-09-04T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-05T09:00:00+08:00",
+      "deleted_date": "2026-09-05",
+      "hours_alive_min": 21.82,
+      "hours_alive_max": 45.82,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "officials"
+      ],
+      "keywords": [
+        "领导",
+        "official"
+      ]
+    },
+    {
+      "id": "s014",
+      "account": "sample_rainy_window 示例_雨窗",
+      "text": "业主们在售楼处门口拉横幅维权，要求按时交房。",
+      "text_versions": [
+        {
+          "text": "业主们在售楼处门口拉横幅维权，要求按时交房。",
+          "seen_at": "2026-09-04T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Homeowners held up a banner outside the sales office, demanding their homes be delivered on time.",
+      "posted_at": "2026-09-03T22:40:00+08:00",
+      "first_seen": "2026-09-04T09:00:00+08:00",
+      "last_seen": "2026-09-04T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-05T09:00:00+08:00",
+      "deleted_date": "2026-09-05",
+      "hours_alive_min": 10.33,
+      "hours_alive_max": 34.33,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "housing",
+        "gathering"
+      ],
+      "keywords": [
+        "交房",
+        "业主",
+        "homeowners",
+        "维权",
+        "横幅",
+        "banner"
+      ]
+    },
+    {
+      "id": "s015",
+      "account": "sample_paper_kite 示例_纸风筝",
+      "text": "我的上一条被删帖了，说是有敏感词。到底哪个词？",
+      "text_versions": [
+        {
+          "text": "我的上一条被删帖了，说是有敏感词。到底哪个词？",
+          "seen_at": "2026-09-04T09:00:00+08:00"
+        }
+      ],
+      "gloss": "My last post was deleted for a \"sensitive word\". Which word, though?",
+      "posted_at": "2026-09-04T08:30:00+08:00",
+      "first_seen": "2026-09-04T09:00:00+08:00",
+      "last_seen": "2026-09-05T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-05T16:20:00Z",
+      "deleted_date": "2026-09-06",
+      "hours_alive_min": 24.5,
+      "hours_alive_max": 39.83,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "speech"
+      ],
+      "keywords": [
+        "删帖",
+        "敏感词",
+        "deleted"
+      ]
+    },
+    {
+      "id": "s017",
+      "account": "sample_bamboo_cat 示例_竹林小猫",
+      "text": "虚构县婴儿奶粉抽检不合格的名单，为什么不公布？",
+      "text_versions": [
+        {
+          "text": "虚构县婴儿奶粉抽检不合格的名单，为什么不公布？",
+          "seen_at": "2026-09-05T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Why has Fictional County not published the list of baby formula brands that failed inspection?",
+      "posted_at": "2026-09-04T13:45:00+08:00",
+      "first_seen": "2026-09-05T09:00:00+08:00",
+      "last_seen": "2026-09-05T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-05T16:20:00Z",
+      "deleted_date": "2026-09-06",
+      "hours_alive_min": 19.25,
+      "hours_alive_max": 34.58,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "food"
+      ],
+      "keywords": [
+        "奶粉"
+      ]
+    },
+    {
+      "id": "s019",
+      "account": "sample_noodle_stand 示例_面馆老板",
+      "text": "工厂停工了，老板跑了，二百多人的工资没人管。",
+      "text_versions": [
+        {
+          "text": "工厂停工了，老板跑了，二百多人的工资没人管。",
+          "seen_at": "2026-09-05T09:00:00+08:00"
+        }
+      ],
+      "gloss": "The factory has stopped work and the boss ran off. Over two hundred people's wages are unpaid.",
+      "posted_at": "2026-09-05T07:00:00+08:00",
+      "first_seen": "2026-09-05T09:00:00+08:00",
+      "last_seen": "2026-09-05T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-05T16:20:00Z",
+      "deleted_date": "2026-09-06",
+      "hours_alive_min": 2,
+      "hours_alive_max": 17.33,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "labor"
+      ],
+      "keywords": [
+        "工资",
+        "停工",
+        "wages",
+        "unpaid"
+      ]
+    },
+    {
+      "id": "s010",
+      "account": "sample_teapot_uncle 示例_茶壶大叔",
+      "text": "示例市医院发烧门诊排了四个小时，病人都坐在走廊。",
+      "text_versions": [
+        {
+          "text": "示例市医院发烧门诊排了四个小时，病人都坐在走廊。",
+          "seen_at": "2026-09-03T09:00:00+08:00"
+        }
+      ],
+      "gloss": "The fever clinic at a Sample City hospital had a four-hour line. Patients were sitting in the hallway.",
+      "posted_at": "2026-09-02T20:30:00+08:00",
+      "first_seen": "2026-09-03T09:00:00+08:00",
+      "last_seen": "2026-09-05T16:20:00Z",
+      "status": "deleted",
+      "deleted_by": "2026-09-06T09:00:00+08:00",
+      "deleted_date": "2026-09-06",
+      "hours_alive_min": 75.83,
+      "hours_alive_max": 84.5,
+      "edited": false,
+      "restored_count": 1,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "health"
+      ],
+      "keywords": [
+        "医院",
+        "发烧",
+        "病人",
+        "hospital"
+      ]
+    },
+    {
+      "id": "s018",
+      "account": "sample_teapot_uncle 示例_茶壶大叔",
+      "text": "听说示例市疫苗接种点换了供应商，有人知道是哪家吗？",
+      "text_versions": [
+        {
+          "text": "听说示例市疫苗接种点换了供应商，有人知道是哪家吗？",
+          "seen_at": "2026-09-05T09:00:00+08:00"
+        }
+      ],
+      "gloss": "I heard the Sample City vaccine site changed suppliers. Does anyone know which one?",
+      "posted_at": "2026-09-04T19:20:00+08:00",
+      "first_seen": "2026-09-05T09:00:00+08:00",
+      "last_seen": "2026-09-05T16:20:00Z",
+      "status": "deleted",
+      "deleted_by": "2026-09-06T09:00:00+08:00",
+      "deleted_date": "2026-09-06",
+      "hours_alive_min": 29,
+      "hours_alive_max": 37.67,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "health"
+      ],
+      "keywords": [
+        "疫苗",
+        "vaccine"
+      ]
+    },
+    {
+      "id": "s021",
+      "account": "sample_night_owl 示例_夜猫子",
+      "text": "示例广场下午有很多人聚集，好像是在请愿。",
+      "text_versions": [
+        {
+          "text": "示例广场下午有很多人聚集，好像是在请愿。",
+          "seen_at": "2026-09-05T09:00:00+08:00"
+        }
+      ],
+      "gloss": "A lot of people gathered at Sample Square this afternoon. It looked like a petition.",
+      "posted_at": "2026-09-05T08:00:00+08:00",
+      "first_seen": "2026-09-05T09:00:00+08:00",
+      "last_seen": "2026-09-05T16:20:00Z",
+      "status": "deleted",
+      "deleted_by": "2026-09-06T09:00:00+08:00",
+      "deleted_date": "2026-09-06",
+      "hours_alive_min": 16.33,
+      "hours_alive_max": 25,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "gathering"
+      ],
+      "keywords": [
+        "聚集",
+        "请愿",
+        "petition"
+      ]
+    },
+    {
+      "id": "s022",
+      "account": "sample_rainy_window 示例_雨窗",
+      "text": "示例广场今天人很多，有人举着牌子，警察也来了。",
+      "text_versions": [
+        {
+          "text": "示例广场今天人很多，有人举着牌子，警察也来了。",
+          "seen_at": "2026-09-05T09:00:00+08:00"
+        },
+        {
+          "text": "示例广场今天人很多。",
+          "seen_at": "2026-09-05T16:20:00Z"
+        }
+      ],
+      "gloss": "Sample Square was crowded today. Some people held signs, and the police came too.",
+      "posted_at": "2026-09-05T08:30:00+08:00",
+      "first_seen": "2026-09-05T09:00:00+08:00",
+      "last_seen": "2026-09-05T16:20:00Z",
+      "status": "deleted",
+      "deleted_by": "2026-09-06T09:00:00+08:00",
+      "deleted_date": "2026-09-06",
+      "hours_alive_min": 15.83,
+      "hours_alive_max": 24.5,
+      "edited": true,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [],
+      "keywords": []
+    },
+    {
+      "id": "s024",
+      "account": "sample_river_watch 示例_样本河观察",
+      "text": "虚构县化工厂排放的污水流进样本河，鱼死了一片。",
+      "text_versions": [
+        {
+          "text": "虚构县化工厂排放的污水流进样本河，鱼死了一片。",
+          "seen_at": "2026-09-06T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Wastewater from the Fictional County chemical plant flowed into Sample River. A stretch of fish died.",
+      "posted_at": "2026-09-06T07:40:00+08:00",
+      "first_seen": "2026-09-06T09:00:00+08:00",
+      "last_seen": "2026-09-06T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-08T09:00:00+08:00",
+      "deleted_date": "2026-09-08",
+      "hours_alive_min": 1.33,
+      "hours_alive_max": 49.33,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "environment"
+      ],
+      "keywords": [
+        "排放",
+        "化工厂"
+      ]
+    },
+    {
+      "id": "s025",
+      "account": "sample_bamboo_cat 示例_竹林小猫",
+      "text": "示例市问责名单出来了，为什么只有小官？",
+      "text_versions": [
+        {
+          "text": "示例市问责名单出来了，为什么只有小官？",
+          "seen_at": "2026-09-06T09:00:00+08:00"
+        }
+      ],
+      "gloss": "The Sample City accountability list is out. Why are only junior officials on it?",
+      "posted_at": "2026-09-06T08:20:00+08:00",
+      "first_seen": "2026-09-06T09:00:00+08:00",
+      "last_seen": "2026-09-06T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-08T09:00:00+08:00",
+      "deleted_date": "2026-09-08",
+      "hours_alive_min": 0.67,
+      "hours_alive_max": 48.67,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "officials"
+      ],
+      "keywords": [
+        "问责",
+        "official"
+      ]
+    },
+    {
+      "id": "s027",
+      "account": "sample_noodle_stand 示例_面馆老板",
+      "text": "朋友的账号被封号了，只因为转发了一条讨薪视频。",
+      "text_versions": [
+        {
+          "text": "朋友的账号被封号了，只因为转发了一条讨薪视频。",
+          "seen_at": "2026-09-06T09:00:00+08:00"
+        }
+      ],
+      "gloss": "A friend's account was banned just for sharing a video about unpaid wages.",
+      "posted_at": "2026-09-06T08:00:00+08:00",
+      "first_seen": "2026-09-06T09:00:00+08:00",
+      "last_seen": "2026-09-06T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-08T09:00:00+08:00",
+      "deleted_date": "2026-09-08",
+      "hours_alive_min": 1,
+      "hours_alive_max": 49,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "labor",
+        "speech"
+      ],
+      "keywords": [
+        "讨薪",
+        "wages",
+        "unpaid",
+        "封号"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "s001",
+      "account": "sample_bamboo_cat 示例_竹林小猫",
+      "text": "示例市化工厂昨晚又冒黑烟，整条街都是味道，孩子咳了一夜。",
+      "text_versions": [
+        {
+          "text": "示例市化工厂昨晚又冒黑烟，整条街都是味道，孩子咳了一夜。",
+          "seen_at": "2026-09-01T09:00:00+08:00"
+        }
+      ],
+      "gloss": "The Sample City chemical plant was pouring out black smoke again last night. The whole street smells, and my kid coughed all night.",
+      "posted_at": "2026-08-31T21:10:00+08:00",
+      "first_seen": "2026-09-01T09:00:00+08:00",
+      "last_seen": "2026-09-01T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-02T09:00:00+08:00",
+      "deleted_date": "2026-09-02",
+      "hours_alive_min": 11.83,
+      "hours_alive_max": 35.83,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "environment"
+      ],
+      "keywords": [
+        "黑烟",
+        "化工厂",
+        "smoke"
+      ]
+    },
+    {
+      "id": "s002",
+      "account": "sample_teapot_uncle 示例_茶壶大叔",
+      "text": "今天泡了一壶新茶，配月饼刚好。",
+      "text_versions": [
+        {
+          "text": "今天泡了一壶新茶，配月饼刚好。",
+          "seen_at": "2026-09-01T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Brewed a pot of new tea today. Perfect with mooncakes.",
+      "posted_at": "2026-08-31T19:00:00+08:00",
+      "first_seen": "2026-09-01T09:00:00+08:00",
+      "last_seen": "2026-09-08T09:00:00+08:00",
+      "status": "visible",
+      "deleted_by": null,
+      "deleted_date": null,
+      "hours_alive_min": null,
+      "hours_alive_max": null,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [],
+      "keywords": []
+    },
+    {
+      "id": "s003",
+      "account": "sample_noodle_stand 示例_面馆老板",
+      "text": "虚构县学校食堂用过期的肉，家长们在群里都炸了。",
+      "text_versions": [
+        {
+          "text": "虚构县学校食堂用过期的肉，家长们在群里都炸了。",
+          "seen_at": "2026-09-01T09:00:00+08:00"
+        }
+      ],
+      "gloss": "A school cafeteria in Fictional County used expired meat. Parents in the group chat are furious.",
+      "posted_at": "2026-09-01T07:30:00+08:00",
+      "first_seen": "2026-09-01T09:00:00+08:00",
+      "last_seen": "2026-09-02T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-03T09:00:00+08:00",
+      "deleted_date": "2026-09-03",
+      "hours_alive_min": 25.5,
+      "hours_alive_max": 49.5,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [
+        "s030"
+      ],
+      "repost_of": null,
+      "tags": [
+        "food"
+      ],
+      "keywords": [
+        "过期",
+        "食堂",
+        "expired"
+      ]
+    },
+    {
+      "id": "s004",
+      "account": "sample_blue_bicycle 示例_蓝色单车",
+      "text": "早高峰骑车上班，比地铁还快。",
+      "text_versions": [
+        {
+          "text": "早高峰骑车上班，比地铁还快。",
+          "seen_at": "2026-09-01T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Biked to work in rush hour. Faster than the subway.",
+      "posted_at": "2026-09-01T08:15:00+08:00",
+      "first_seen": "2026-09-01T09:00:00+08:00",
+      "last_seen": "2026-09-08T09:00:00+08:00",
+      "status": "visible",
+      "deleted_by": null,
+      "deleted_date": null,
+      "hours_alive_min": null,
+      "hours_alive_max": null,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [],
+      "keywords": []
+    },
+    {
+      "id": "s005",
+      "account": "sample_rainy_window 示例_雨窗",
+      "text": "样本河边的工地，三个月没发工资了，工人们今天去讨薪。",
+      "text_versions": [
+        {
+          "text": "样本河边的工地，三个月没发工资了，工人们今天去讨薪。",
+          "seen_at": "2026-09-02T09:00:00+08:00"
+        },
+        {
+          "text": "样本河边的工地，听说工资还没发。",
+          "seen_at": "2026-09-03T09:00:00+08:00"
+        }
+      ],
+      "gloss": "The building site by Sample River has not paid wages in three months. Workers went to demand their pay today.",
+      "posted_at": "2026-09-01T12:40:00+08:00",
+      "first_seen": "2026-09-02T09:00:00+08:00",
+      "last_seen": "2026-09-03T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-04T09:00:00+08:00",
+      "deleted_date": "2026-09-04",
+      "hours_alive_min": 44.33,
+      "hours_alive_max": 68.33,
+      "edited": true,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "labor"
+      ],
+      "keywords": [
+        "工资",
+        "讨薪",
+        "wages"
+      ]
+    },
+    {
+      "id": "s006",
+      "account": "sample_night_owl 示例_夜猫子",
+      "text": "刚才那条帖子被删了，再发一次：示例市化工厂昨晚又冒黑烟。",
+      "text_versions": [
+        {
+          "text": "刚才那条帖子被删了，再发一次：示例市化工厂昨晚又冒黑烟。",
+          "seen_at": "2026-09-02T09:00:00+08:00"
+        }
+      ],
+      "gloss": "My last post got deleted, posting again: the Sample City chemical plant was pouring out black smoke again last night.",
+      "posted_at": "2026-09-01T23:55:00+08:00",
+      "first_seen": "2026-09-02T09:00:00+08:00",
+      "last_seen": "2026-09-02T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-03T09:00:00+08:00",
+      "deleted_date": "2026-09-03",
+      "hours_alive_min": 9.08,
+      "hours_alive_max": 33.08,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "environment",
+        "speech"
+      ],
+      "keywords": [
+        "黑烟",
+        "化工厂",
+        "smoke",
+        "deleted"
+      ]
+    },
+    {
+      "id": "s007",
+      "account": "sample_paper_kite 示例_纸风筝",
+      "text": "周末去放风筝，天气太好了。",
+      "text_versions": [
+        {
+          "text": "周末去放风筝，天气太好了。",
+          "seen_at": "2026-09-03T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Flew a kite this weekend. Gorgeous weather.",
+      "posted_at": "2026-09-02T10:00:00+08:00",
+      "first_seen": "2026-09-03T09:00:00+08:00",
+      "last_seen": "2026-09-08T09:00:00+08:00",
+      "status": "visible",
+      "deleted_by": null,
+      "deleted_date": null,
+      "hours_alive_min": null,
+      "hours_alive_max": null,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [],
+      "keywords": []
+    },
+    {
+      "id": "s008",
+      "account": "sample_river_watch 示例_样本河观察",
+      "text": "暴雨之后虚构县的老桥倒塌了，救援队还在找人。",
+      "text_versions": [
+        {
+          "text": "暴雨之后虚构县的老桥倒塌了，救援队还在找人。",
+          "seen_at": "2026-09-03T09:00:00+08:00"
+        }
+      ],
+      "gloss": "After the heavy rain, the old bridge in Fictional County collapsed. Rescue teams are still searching for people.",
+      "posted_at": "2026-09-02T14:20:00+08:00",
+      "first_seen": "2026-09-03T09:00:00+08:00",
+      "last_seen": "2026-09-03T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-04T09:00:00+08:00",
+      "deleted_date": "2026-09-04",
+      "hours_alive_min": 18.67,
+      "hours_alive_max": 42.67,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "disaster"
+      ],
+      "keywords": [
+        "暴雨",
+        "倒塌",
+        "救援",
+        "collapse"
+      ]
+    },
+    {
+      "id": "s009",
+      "account": "sample_bamboo_cat 示例_竹林小猫",
+      "text": "示例小区烂尾三年，业主们商量要不要停贷。",
+      "text_versions": [
+        {
+          "text": "示例小区烂尾三年，业主们商量要不要停贷。",
+          "seen_at": "2026-09-03T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Our Sample Estate housing project has sat unfinished for three years. Homeowners are discussing stopping mortgage payments.",
+      "posted_at": "2026-09-02T18:05:00+08:00",
+      "first_seen": "2026-09-03T09:00:00+08:00",
+      "last_seen": "2026-09-03T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-04T09:00:00+08:00",
+      "deleted_date": "2026-09-04",
+      "hours_alive_min": 14.92,
+      "hours_alive_max": 38.92,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "housing"
+      ],
+      "keywords": [
+        "烂尾",
+        "业主",
+        "停贷",
+        "unfinished",
+        "homeowners"
+      ]
+    },
+    {
+      "id": "s010",
+      "account": "sample_teapot_uncle 示例_茶壶大叔",
+      "text": "示例市医院发烧门诊排了四个小时，病人都坐在走廊。",
+      "text_versions": [
+        {
+          "text": "示例市医院发烧门诊排了四个小时，病人都坐在走廊。",
+          "seen_at": "2026-09-03T09:00:00+08:00"
+        }
+      ],
+      "gloss": "The fever clinic at a Sample City hospital had a four-hour line. Patients were sitting in the hallway.",
+      "posted_at": "2026-09-02T20:30:00+08:00",
+      "first_seen": "2026-09-03T09:00:00+08:00",
+      "last_seen": "2026-09-05T16:20:00Z",
+      "status": "deleted",
+      "deleted_by": "2026-09-06T09:00:00+08:00",
+      "deleted_date": "2026-09-06",
+      "hours_alive_min": 75.83,
+      "hours_alive_max": 84.5,
+      "edited": false,
+      "restored_count": 1,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "health"
+      ],
+      "keywords": [
+        "医院",
+        "发烧",
+        "病人",
+        "hospital"
+      ]
+    },
+    {
+      "id": "s011",
+      "account": "sample_noodle_stand 示例_面馆老板",
+      "text": "今天的牛肉面加了新辣椒，欢迎来尝。",
+      "text_versions": [
+        {
+          "text": "今天的牛肉面加了新辣椒，欢迎来尝。",
+          "seen_at": "2026-09-03T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Added a new chili to today's beef noodles. Come try it.",
+      "posted_at": "2026-09-03T06:50:00+08:00",
+      "first_seen": "2026-09-03T09:00:00+08:00",
+      "last_seen": "2026-09-08T09:00:00+08:00",
+      "status": "visible",
+      "deleted_by": null,
+      "deleted_date": null,
+      "hours_alive_min": null,
+      "hours_alive_max": null,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [],
+      "keywords": []
+    },
+    {
+      "id": "s030",
+      "account": "sample_paper_kite 示例_纸风筝",
+      "text": "虚构县学校食堂用过期的肉，家长们在群里都炸了。",
+      "text_versions": [
+        {
+          "text": "虚构县学校食堂用过期的肉，家长们在群里都炸了。",
+          "seen_at": "2026-09-03T09:00:00+08:00"
+        }
+      ],
+      "gloss": "A school cafeteria in Fictional County used expired meat. Parents in the group chat are furious.",
+      "posted_at": "2026-09-02T21:00:00+08:00",
+      "first_seen": "2026-09-03T09:00:00+08:00",
+      "last_seen": "2026-09-03T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-04T09:00:00+08:00",
+      "deleted_date": "2026-09-04",
+      "hours_alive_min": 12,
+      "hours_alive_max": 36,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": "s003",
+      "tags": [
+        "food"
+      ],
+      "keywords": [
+        "过期",
+        "食堂",
+        "expired"
+      ]
+    },
+    {
+      "id": "s012",
+      "account": "sample_blue_bicycle 示例_蓝色单车",
+      "text": "示例市一位领导的亲戚中标了全部路灯工程，大家怎么看？",
+      "text_versions": [
+        {
+          "text": "示例市一位领导的亲戚中标了全部路灯工程，大家怎么看？",
+          "seen_at": "2026-09-04T09:00:00+08:00"
+        }
+      ],
+      "gloss": "A relative of a Sample City official won every streetlight contract. What does everyone think?",
+      "posted_at": "2026-09-03T11:11:00+08:00",
+      "first_seen": "2026-09-04T09:00:00+08:00",
+      "last_seen": "2026-09-04T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-05T09:00:00+08:00",
+      "deleted_date": "2026-09-05",
+      "hours_alive_min": 21.82,
+      "hours_alive_max": 45.82,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "officials"
+      ],
+      "keywords": [
+        "领导",
+        "official"
+      ]
+    },
+    {
+      "id": "s013",
+      "account": "sample_night_owl 示例_夜猫子",
+      "text": "有人知道哪家书店开到半夜吗？",
+      "text_versions": [
+        {
+          "text": "有人知道哪家书店开到半夜吗？",
+          "seen_at": "2026-09-04T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Does anyone know a bookstore that stays open until midnight?",
+      "posted_at": "2026-09-03T15:00:00+08:00",
+      "first_seen": "2026-09-04T09:00:00+08:00",
+      "last_seen": "2026-09-08T09:00:00+08:00",
+      "status": "visible",
+      "deleted_by": null,
+      "deleted_date": null,
+      "hours_alive_min": null,
+      "hours_alive_max": null,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [],
+      "keywords": []
+    },
+    {
+      "id": "s014",
+      "account": "sample_rainy_window 示例_雨窗",
+      "text": "业主们在售楼处门口拉横幅维权，要求按时交房。",
+      "text_versions": [
+        {
+          "text": "业主们在售楼处门口拉横幅维权，要求按时交房。",
+          "seen_at": "2026-09-04T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Homeowners held up a banner outside the sales office, demanding their homes be delivered on time.",
+      "posted_at": "2026-09-03T22:40:00+08:00",
+      "first_seen": "2026-09-04T09:00:00+08:00",
+      "last_seen": "2026-09-04T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-05T09:00:00+08:00",
+      "deleted_date": "2026-09-05",
+      "hours_alive_min": 10.33,
+      "hours_alive_max": 34.33,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "housing",
+        "gathering"
+      ],
+      "keywords": [
+        "交房",
+        "业主",
+        "homeowners",
+        "维权",
+        "横幅",
+        "banner"
+      ]
+    },
+    {
+      "id": "s015",
+      "account": "sample_paper_kite 示例_纸风筝",
+      "text": "我的上一条被删帖了，说是有敏感词。到底哪个词？",
+      "text_versions": [
+        {
+          "text": "我的上一条被删帖了，说是有敏感词。到底哪个词？",
+          "seen_at": "2026-09-04T09:00:00+08:00"
+        }
+      ],
+      "gloss": "My last post was deleted for a \"sensitive word\". Which word, though?",
+      "posted_at": "2026-09-04T08:30:00+08:00",
+      "first_seen": "2026-09-04T09:00:00+08:00",
+      "last_seen": "2026-09-05T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-05T16:20:00Z",
+      "deleted_date": "2026-09-06",
+      "hours_alive_min": 24.5,
+      "hours_alive_max": 39.83,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "speech"
+      ],
+      "keywords": [
+        "删帖",
+        "敏感词",
+        "deleted"
+      ]
+    },
+    {
+      "id": "s016",
+      "account": "sample_river_watch 示例_样本河观察",
+      "text": "样本河今天水位回落了，河边散步的人又多了。",
+      "text_versions": [
+        {
+          "text": "样本河今天水位回落了，河边散步的人又多了。",
+          "seen_at": "2026-09-05T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Sample River's water level dropped today. More people are walking along the bank again.",
+      "posted_at": "2026-09-04T10:10:00+08:00",
+      "first_seen": "2026-09-05T09:00:00+08:00",
+      "last_seen": "2026-09-08T09:00:00+08:00",
+      "status": "visible",
+      "deleted_by": null,
+      "deleted_date": null,
+      "hours_alive_min": null,
+      "hours_alive_max": null,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [],
+      "keywords": []
+    },
+    {
+      "id": "s017",
+      "account": "sample_bamboo_cat 示例_竹林小猫",
+      "text": "虚构县婴儿奶粉抽检不合格的名单，为什么不公布？",
+      "text_versions": [
+        {
+          "text": "虚构县婴儿奶粉抽检不合格的名单，为什么不公布？",
+          "seen_at": "2026-09-05T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Why has Fictional County not published the list of baby formula brands that failed inspection?",
+      "posted_at": "2026-09-04T13:45:00+08:00",
+      "first_seen": "2026-09-05T09:00:00+08:00",
+      "last_seen": "2026-09-05T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-05T16:20:00Z",
+      "deleted_date": "2026-09-06",
+      "hours_alive_min": 19.25,
+      "hours_alive_max": 34.58,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "food"
+      ],
+      "keywords": [
+        "奶粉"
+      ]
+    },
+    {
+      "id": "s018",
+      "account": "sample_teapot_uncle 示例_茶壶大叔",
+      "text": "听说示例市疫苗接种点换了供应商，有人知道是哪家吗？",
+      "text_versions": [
+        {
+          "text": "听说示例市疫苗接种点换了供应商，有人知道是哪家吗？",
+          "seen_at": "2026-09-05T09:00:00+08:00"
+        }
+      ],
+      "gloss": "I heard the Sample City vaccine site changed suppliers. Does anyone know which one?",
+      "posted_at": "2026-09-04T19:20:00+08:00",
+      "first_seen": "2026-09-05T09:00:00+08:00",
+      "last_seen": "2026-09-05T16:20:00Z",
+      "status": "deleted",
+      "deleted_by": "2026-09-06T09:00:00+08:00",
+      "deleted_date": "2026-09-06",
+      "hours_alive_min": 29,
+      "hours_alive_max": 37.67,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "health"
+      ],
+      "keywords": [
+        "疫苗",
+        "vaccine"
+      ]
+    },
+    {
+      "id": "s019",
+      "account": "sample_noodle_stand 示例_面馆老板",
+      "text": "工厂停工了，老板跑了，二百多人的工资没人管。",
+      "text_versions": [
+        {
+          "text": "工厂停工了，老板跑了，二百多人的工资没人管。",
+          "seen_at": "2026-09-05T09:00:00+08:00"
+        }
+      ],
+      "gloss": "The factory has stopped work and the boss ran off. Over two hundred people's wages are unpaid.",
+      "posted_at": "2026-09-05T07:00:00+08:00",
+      "first_seen": "2026-09-05T09:00:00+08:00",
+      "last_seen": "2026-09-05T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-05T16:20:00Z",
+      "deleted_date": "2026-09-06",
+      "hours_alive_min": 2,
+      "hours_alive_max": 17.33,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "labor"
+      ],
+      "keywords": [
+        "工资",
+        "停工",
+        "wages",
+        "unpaid"
+      ]
+    },
+    {
+      "id": "s021",
+      "account": "sample_night_owl 示例_夜猫子",
+      "text": "示例广场下午有很多人聚集，好像是在请愿。",
+      "text_versions": [
+        {
+          "text": "示例广场下午有很多人聚集，好像是在请愿。",
+          "seen_at": "2026-09-05T09:00:00+08:00"
+        }
+      ],
+      "gloss": "A lot of people gathered at Sample Square this afternoon. It looked like a petition.",
+      "posted_at": "2026-09-05T08:00:00+08:00",
+      "first_seen": "2026-09-05T09:00:00+08:00",
+      "last_seen": "2026-09-05T16:20:00Z",
+      "status": "deleted",
+      "deleted_by": "2026-09-06T09:00:00+08:00",
+      "deleted_date": "2026-09-06",
+      "hours_alive_min": 16.33,
+      "hours_alive_max": 25,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "gathering"
+      ],
+      "keywords": [
+        "聚集",
+        "请愿",
+        "petition"
+      ]
+    },
+    {
+      "id": "s022",
+      "account": "sample_rainy_window 示例_雨窗",
+      "text": "示例广场今天人很多，有人举着牌子，警察也来了。",
+      "text_versions": [
+        {
+          "text": "示例广场今天人很多，有人举着牌子，警察也来了。",
+          "seen_at": "2026-09-05T09:00:00+08:00"
+        },
+        {
+          "text": "示例广场今天人很多。",
+          "seen_at": "2026-09-05T16:20:00Z"
+        }
+      ],
+      "gloss": "Sample Square was crowded today. Some people held signs, and the police came too.",
+      "posted_at": "2026-09-05T08:30:00+08:00",
+      "first_seen": "2026-09-05T09:00:00+08:00",
+      "last_seen": "2026-09-05T16:20:00Z",
+      "status": "deleted",
+      "deleted_by": "2026-09-06T09:00:00+08:00",
+      "deleted_date": "2026-09-06",
+      "hours_alive_min": 15.83,
+      "hours_alive_max": 24.5,
+      "edited": true,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [],
+      "keywords": []
+    },
+    {
+      "id": "s020",
+      "account": "sample_blue_bicycle 示例_蓝色单车",
+      "text": "新开的自行车道很好用，点赞。",
+      "text_versions": [
+        {
+          "text": "新开的自行车道很好用，点赞。",
+          "seen_at": "2026-09-05T16:20:00Z"
+        }
+      ],
+      "gloss": "The new bike lane works great. Thumbs up.",
+      "posted_at": "2026-09-05T09:30:00+08:00",
+      "first_seen": "2026-09-05T16:20:00Z",
+      "last_seen": "2026-09-08T09:00:00+08:00",
+      "status": "visible",
+      "deleted_by": null,
+      "deleted_date": null,
+      "hours_alive_min": null,
+      "hours_alive_max": null,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [],
+      "keywords": []
+    },
+    {
+      "id": "s023",
+      "account": "sample_paper_kite 示例_纸风筝",
+      "text": "晚饭做了红烧肉，第一次成功。",
+      "text_versions": [
+        {
+          "text": "晚饭做了红烧肉，第一次成功。",
+          "seen_at": "2026-09-05T16:20:00Z"
+        }
+      ],
+      "gloss": "Made braised pork for dinner. First time it worked.",
+      "posted_at": "2026-09-05T20:00:00+08:00",
+      "first_seen": "2026-09-05T16:20:00Z",
+      "last_seen": "2026-09-08T09:00:00+08:00",
+      "status": "visible",
+      "deleted_by": null,
+      "deleted_date": null,
+      "hours_alive_min": null,
+      "hours_alive_max": null,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [],
+      "keywords": []
+    },
+    {
+      "id": "s024",
+      "account": "sample_river_watch 示例_样本河观察",
+      "text": "虚构县化工厂排放的污水流进样本河，鱼死了一片。",
+      "text_versions": [
+        {
+          "text": "虚构县化工厂排放的污水流进样本河，鱼死了一片。",
+          "seen_at": "2026-09-06T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Wastewater from the Fictional County chemical plant flowed into Sample River. A stretch of fish died.",
+      "posted_at": "2026-09-06T07:40:00+08:00",
+      "first_seen": "2026-09-06T09:00:00+08:00",
+      "last_seen": "2026-09-06T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-08T09:00:00+08:00",
+      "deleted_date": "2026-09-08",
+      "hours_alive_min": 1.33,
+      "hours_alive_max": 49.33,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "environment"
+      ],
+      "keywords": [
+        "排放",
+        "化工厂"
+      ]
+    },
+    {
+      "id": "s025",
+      "account": "sample_bamboo_cat 示例_竹林小猫",
+      "text": "示例市问责名单出来了，为什么只有小官？",
+      "text_versions": [
+        {
+          "text": "示例市问责名单出来了，为什么只有小官？",
+          "seen_at": "2026-09-06T09:00:00+08:00"
+        }
+      ],
+      "gloss": "The Sample City accountability list is out. Why are only junior officials on it?",
+      "posted_at": "2026-09-06T08:20:00+08:00",
+      "first_seen": "2026-09-06T09:00:00+08:00",
+      "last_seen": "2026-09-06T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-08T09:00:00+08:00",
+      "deleted_date": "2026-09-08",
+      "hours_alive_min": 0.67,
+      "hours_alive_max": 48.67,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "officials"
+      ],
+      "keywords": [
+        "问责",
+        "official"
+      ]
+    },
+    {
+      "id": "s026",
+      "account": "sample_teapot_uncle 示例_茶壶大叔",
+      "text": "秋天到了，公园的桂花开了。",
+      "text_versions": [
+        {
+          "text": "秋天到了，公园的桂花开了。",
+          "seen_at": "2026-09-06T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Autumn is here. The osmanthus in the park is blooming.",
+      "posted_at": "2026-09-06T08:45:00+08:00",
+      "first_seen": "2026-09-06T09:00:00+08:00",
+      "last_seen": "2026-09-08T09:00:00+08:00",
+      "status": "visible",
+      "deleted_by": null,
+      "deleted_date": null,
+      "hours_alive_min": null,
+      "hours_alive_max": null,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [],
+      "keywords": []
+    },
+    {
+      "id": "s027",
+      "account": "sample_noodle_stand 示例_面馆老板",
+      "text": "朋友的账号被封号了，只因为转发了一条讨薪视频。",
+      "text_versions": [
+        {
+          "text": "朋友的账号被封号了，只因为转发了一条讨薪视频。",
+          "seen_at": "2026-09-06T09:00:00+08:00"
+        }
+      ],
+      "gloss": "A friend's account was banned just for sharing a video about unpaid wages.",
+      "posted_at": "2026-09-06T08:00:00+08:00",
+      "first_seen": "2026-09-06T09:00:00+08:00",
+      "last_seen": "2026-09-06T09:00:00+08:00",
+      "status": "deleted",
+      "deleted_by": "2026-09-08T09:00:00+08:00",
+      "deleted_date": "2026-09-08",
+      "hours_alive_min": 1,
+      "hours_alive_max": 49,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [
+        "labor",
+        "speech"
+      ],
+      "keywords": [
+        "讨薪",
+        "wages",
+        "unpaid",
+        "封号"
+      ]
+    },
+    {
+      "id": "s028",
+      "account": "sample_blue_bicycle 示例_蓝色单车",
+      "text": "有没有人周末一起骑车去郊外？",
+      "text_versions": [
+        {
+          "text": "有没有人周末一起骑车去郊外？",
+          "seen_at": "2026-09-08T09:00:00+08:00"
+        }
+      ],
+      "gloss": "Anyone want to bike out to the countryside this weekend?",
+      "posted_at": "2026-09-07T16:00:00+08:00",
+      "first_seen": "2026-09-08T09:00:00+08:00",
+      "last_seen": "2026-09-08T09:00:00+08:00",
+      "status": "visible",
+      "deleted_by": null,
+      "deleted_date": null,
+      "hours_alive_min": null,
+      "hours_alive_max": null,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [],
+      "keywords": []
+    },
+    {
+      "id": "s029",
+      "account": "sample_night_owl 示例_夜猫子",
+      "text": "今晚的月亮好圆。",
+      "text_versions": [
+        {
+          "text": "今晚的月亮好圆。",
+          "seen_at": "2026-09-08T09:00:00+08:00"
+        }
+      ],
+      "gloss": "The moon is so round tonight.",
+      "posted_at": "2026-09-07T22:10:00+08:00",
+      "first_seen": "2026-09-08T09:00:00+08:00",
+      "last_seen": "2026-09-08T09:00:00+08:00",
+      "status": "visible",
+      "deleted_by": null,
+      "deleted_date": null,
+      "hours_alive_min": null,
+      "hours_alive_max": null,
+      "edited": false,
+      "restored_count": 0,
+      "reposted_as": [],
+      "repost_of": null,
+      "tags": [],
+      "keywords": []
+    }
+  ],
+  "stats": {
+    "totalPosts": 30,
+    "deletedCount": 19,
+    "stillVisible": 11,
+    "editedCount": 2,
+    "repostCount": 1,
+    "restoredCount": 1,
+    "medianHoursAliveMax": 38.92
+  }
+};
+window.CDE_LEXICON = {"notice":"Demo keyword list made for the sample data. It is not a real list of censored words.","topics":[{"id":"environment","label_en":"Environment","label_zh":"环境","keywords":["污染","排放","黑烟","化工厂","pollution","smoke"]},{"id":"food","label_en":"Food safety","label_zh":"食品安全","keywords":["奶粉","过期","食物中毒","食堂","expired","food poisoning"]},{"id":"labor","label_en":"Wages and work","label_zh":"欠薪劳工","keywords":["欠薪","工资","讨薪","停工","wages","unpaid"]},{"id":"health","label_en":"Health","label_zh":"公共卫生","keywords":["医院","发烧","疫苗","病人","hospital","vaccine"]},{"id":"housing","label_en":"Housing","label_zh":"房产","keywords":["烂尾","交房","业主","停贷","unfinished","homeowners"]},{"id":"disaster","label_en":"Accidents and floods","label_zh":"灾害事故","keywords":["暴雨","倒塌","爆炸","救援","flood","collapse"]},{"id":"officials","label_en":"Officials","label_zh":"官员问责","keywords":["官员","领导","问责","贪","official","corruption"]},{"id":"gathering","label_en":"Gatherings and petitions","label_zh":"聚集维权","keywords":["聚集","维权","横幅","请愿","petition","banner"]},{"id":"speech","label_en":"Speech and deletion","label_zh":"言论删帖","keywords":["删帖","封号","404","敏感词","deleted","censored"]}]};

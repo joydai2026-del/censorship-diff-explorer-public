@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deleted Posts Explorer</title>
+  <meta name="description" content="See which social media posts disappeared each day, from daily snapshots.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#list" data-i18n="skip">Skip to posts</a>
+  <header class="top">
+    <div class="wrap top-row">
+      <div>
+        <h1 data-i18n="title">Deleted Posts Explorer</h1>
+        <p class="lede" data-i18n="lede">See which posts disappeared each day.</p>
+      </div>
+      <button type="button" class="lang" data-testid="lang-toggle" aria-label="切换到中文">中文</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div id="banner-slot"></div>
+
+    <section class="stats" aria-label="Summary" id="stats"></section>
+
+    <section class="panel" aria-labelledby="chart-h">
+      <div class="panel-head">
+        <h2 id="chart-h" data-i18n="chartTitle">Deleted posts per day</h2>
+        <button type="button" class="link-btn" data-testid="all-days" data-i18n="allDays">Show all days</button>
+      </div>
+      <p class="hint" data-i18n="chartHint">Tap a bar to see that day's posts.</p>
+      <div class="chart-scroll" id="chart"></div>
+    </section>
+
+    <section class="panel filters" aria-label="Filters">
+      <label class="search">
+        <span class="sr" data-i18n="searchLabel">Search</span>
+        <input type="search" data-testid="search" id="search" autocomplete="off" data-i18n-placeholder="searchPh" placeholder="Search words, accounts, topics">
+      </label>
+      <div class="chips" id="chips" role="group" aria-label="Topics"></div>
+      <label class="check">
+        <input type="checkbox" id="gloss" data-testid="gloss-toggle" checked>
+        <span data-i18n="showGloss">Show English translation</span>
+      </label>
+    </section>
+
+    <section id="list" aria-live="polite">
+      <h2 data-testid="list-heading" id="list-heading"></h2>
+      <div id="cards"></div>
+    </section>
+
+    <section class="panel notes" data-testid="notes" id="notes"></section>
+
+    <details class="panel own">
+      <summary data-i18n="ownTitle">Use your own snapshot files</summary>
+      <p data-i18n="ownHelp">Pick two or more snapshot .json files (one per capture). Nothing leaves your computer: the comparison runs right here in the page.</p>
+      <input type="file" accept=".json,application/json" multiple data-testid="file-input" id="file-input">
+      <p class="error" data-testid="load-error" id="load-error" role="alert"></p>
+    </details>
+  </main>
+
+  <footer class="wrap foot">
+    <p data-i18n="foot">How it works: a post seen in one capture and missing from the next one is counted as deleted. Times are Beijing time.</p>
+  </footer>
+
+  <script src="../src/engine.js"></script>
+  <script src="data/diff.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

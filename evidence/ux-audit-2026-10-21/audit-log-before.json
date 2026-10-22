@@ -1,0 +1,2010 @@
+[
+ {
+  "n": 1,
+  "fn": "first-visit",
+  "dev": "desktop",
+  "did": "open page fresh",
+  "saw": {
+   "h1": "Deleted Posts Explorer",
+   "hint": "Tap a bar to see that day's posts.",
+   "banner": true,
+   "own_panel_open": false
+  }
+ },
+ {
+  "n": 2,
+  "fn": "stats",
+  "dev": "desktop",
+  "did": "read the 4 summary tiles",
+  "saw": {
+   "deleted": "19",
+   "tracked": "30",
+   "median": "about 38.9 hours",
+   "ignored": "1"
+  }
+ },
+ {
+  "n": 3,
+  "fn": "timeline-bars",
+  "dev": "desktop",
+  "did": "read every bar count",
+  "saw": [
+   [
+    "2026-09-01",
+    0
+   ],
+   [
+    "2026-09-02",
+    1
+   ],
+   [
+    "2026-09-03",
+    2
+   ],
+   [
+    "2026-09-04",
+    4
+   ],
+   [
+    "2026-09-05",
+    2
+   ],
+   [
+    "2026-09-06",
+    7
+   ],
+   [
+    "2026-09-07",
+    0
+   ],
+   [
+    "2026-09-08",
+    3
+   ]
+  ]
+ },
+ {
+  "n": 4,
+  "fn": "select-day",
+  "dev": "desktop",
+  "did": "tap Sep 6 bar",
+  "saw": {
+   "heading": "Sep 6 · 7 deleted posts",
+   "cards": [
+    "s015",
+    "s017",
+    "s019",
+    "s010",
+    "s018",
+    "s021",
+    "s022"
+   ],
+   "hash": "#day=2026-09-06"
+  }
+ },
+ {
+  "n": 23,
+  "fn": "refresh",
+  "dev": "desktop",
+  "did": "reload while Sep 6 selected",
+  "saw": {
+   "heading": "Sep 6 · 7 deleted posts",
+   "hash": "#day=2026-09-06"
+  }
+ },
+ {
+  "n": 5,
+  "fn": "deselect-day",
+  "dev": "desktop",
+  "did": "tap Sep 6 bar again",
+  "saw": {
+   "heading": "All days · 19 deleted posts"
+  }
+ },
+ {
+  "n": 6,
+  "fn": "show-all-days",
+  "dev": "desktop",
+  "did": "select Sep 4 then Show all days",
+  "saw": {
+   "heading": "All days · 19 deleted posts",
+   "n": 19
+  }
+ },
+ {
+  "n": 7,
+  "fn": "search-partial",
+  "dev": "desktop",
+  "did": "type \"sampl\"",
+  "saw": {
+   "heading": "All days · 19 deleted posts",
+   "cards": [
+    "s001",
+    "s003",
+    "s006",
+    "s005",
+    "s008",
+    "s009",
+    "s030",
+    "s012",
+    "s014",
+    "s015",
+    "s017",
+    "s019",
+    "s010",
+    "s018",
+    "s021",
+    "s022",
+    "s024",
+    "s025",
+    "s027"
+   ],
+   "bars": [
+    [
+     "2026-09-01",
+     0
+    ],
+    [
+     "2026-09-02",
+     1
+    ],
+    [
+     "2026-09-03",
+     2
+    ],
+    [
+     "2026-09-04",
+     4
+    ],
+    [
+     "2026-09-05",
+     2
+    ],
+    [
+     "2026-09-06",
+     7
+    ],
+    [
+     "2026-09-07",
+     0
+    ],
+    [
+     "2026-09-08",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "n": 9,
+  "fn": "search-chinese",
+  "dev": "desktop",
+  "did": "type 示例市",
+  "saw": {
+   "heading": "All days · 6 deleted posts",
+   "cards": [
+    "s001",
+    "s006",
+    "s012",
+    "s010",
+    "s018",
+    "s025"
+   ]
+  }
+ },
+ {
+  "n": 8,
+  "fn": "search-no-results",
+  "dev": "desktop",
+  "did": "type zzzqqq",
+  "saw": {
+   "heading": "All days · 0 deleted posts",
+   "empty": "No deleted posts match. Try another word or topic."
+  }
+ },
+ {
+  "n": 10,
+  "fn": "search-emoji-sample",
+  "dev": "desktop",
+  "did": "type 🙂",
+  "saw": {
+   "heading": "All days · 0 deleted posts"
+  }
+ },
+ {
+  "n": 11,
+  "fn": "topic-filter",
+  "dev": "desktop",
+  "did": "tap topic chip environment",
+  "saw": {
+   "chips": [
+    [
+     "all",
+     "All topics"
+    ],
+    [
+     "environment",
+     "Environment3"
+    ],
+    [
+     "food",
+     "Food safety3"
+    ],
+    [
+     "labor",
+     "Wages and work3"
+    ],
+    [
+     "health",
+     "Health2"
+    ],
+    [
+     "housing",
+     "Housing2"
+    ],
+    [
+     "disaster",
+     "Accidents and floods1"
+    ],
+    [
+     "officials",
+     "Officials2"
+    ],
+    [
+     "gathering",
+     "Gatherings and petitions2"
+    ],
+    [
+     "speech",
+     "Speech and deletion3"
+    ]
+   ],
+   "heading": "All days · 3 deleted posts",
+   "all_have_tag": true,
+   "bars": [
+    [
+     "2026-09-01",
+     0
+    ],
+    [
+     "2026-09-02",
+     1
+    ],
+    [
+     "2026-09-03",
+     1
+    ],
+    [
+     "2026-09-04",
+     0
+    ],
+    [
+     "2026-09-05",
+     0
+    ],
+    [
+     "2026-09-06",
+     0
+    ],
+    [
+     "2026-09-07",
+     0
+    ],
+    [
+     "2026-09-08",
+     1
+    ]
+   ]
+  }
+ },
+ {
+  "n": 12,
+  "fn": "gloss-toggle",
+  "dev": "desktop",
+  "did": "untick Show English translation",
+  "saw": {
+   "gloss_before": 19,
+   "gloss_after": 0
+  }
+ },
+ {
+  "n": 14,
+  "fn": "edit-versions",
+  "dev": "desktop",
+  "did": "open See every version on edited card",
+  "saw": "See every version\n样本河边的工地，三个月没发工资了，工人们今天去讨薪。 (Sep 2, 09:00)\n样本河边的工地，听说工资还没发。 (Sep 3, 09:00)"
+ },
+ {
+  "n": 15,
+  "fn": "notes",
+  "dev": "desktop",
+  "did": "read Good to know",
+  "saw": "Good to know\nBuilt from 9 captures. A post counts as deleted when it is in one capture and missing from the next. We only know it went missing somewhere between those two times.\nOne capture was ignored (Sep 7, 09:00): 10 of 12 posts vanished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored.\nPosts that go up and come down between two captures are never seen, so they cannot appear here."
+ },
+ {
+  "n": 13,
+  "fn": "language-toggle",
+  "dev": "desktop",
+  "did": "tap 中文",
+  "saw": {
+   "h1": "删帖观察 Deleted Posts Explorer",
+   "heading": "全部日期 · 删除 19 条",
+   "stat_label": "被删帖子",
+   "chart_label": "9月1日"
+  }
+ },
+ {
+  "n": 13,
+  "fn": "language-persist",
+  "dev": "desktop",
+  "did": "reload after switching",
+  "saw": "删帖观察 Deleted Posts Explorer"
+ },
+ {
+  "n": 25,
+  "fn": "keyboard",
+  "dev": "desktop",
+  "did": "Tab through page, Enter/Space on Sep 3 bar",
+  "saw": {
+   "tab_order": [
+    "A",
+    "lang-toggle",
+    "all-days",
+    "day-bar:2026-09-01",
+    "day-bar:2026-09-02",
+    "day-bar:2026-09-03",
+    "day-bar:2026-09-04",
+    "day-bar:2026-09-05",
+    "day-bar:2026-09-06",
+    "day-bar:2026-09-07",
+    "day-bar:2026-09-08",
+    "search",
+    "topic-chip",
+    "topic-chip"
+   ],
+   "after_enter": "Sep 3 · 2 deleted posts",
+   "after_space": "Sep 3 · 2 deleted posts",
+   "skip_link_visible": true,
+   "focus_after_enter": "BODY:"
+  }
+ },
+ {
+  "n": 26,
+  "fn": "tap-targets",
+  "dev": "desktop",
+  "did": "measure every control (<44px listed)",
+  "saw": [
+   [
+    "A",
+    94,
+    25
+   ],
+   [
+    "all-days",
+    124,
+    39
+   ],
+   [
+    "topic-chip:all",
+    90,
+    36
+   ],
+   [
+    "topic-chip:environment",
+    119,
+    36
+   ],
+   [
+    "topic-chip:food",
+    114,
+    36
+   ],
+   [
+    "topic-chip:labor",
+    148,
+    36
+   ],
+   [
+    "topic-chip:health",
+    82,
+    36
+   ],
+   [
+    "topic-chip:housing",
+    93,
+    36
+   ],
+   [
+    "topic-chip:disaster",
+    178,
+    36
+   ],
+   [
+    "topic-chip:officials",
+    93,
+    36
+   ],
+   [
+    "topic-chip:gathering",
+    201,
+    36
+   ],
+   [
+    "topic-chip:speech",
+    172,
+    36
+   ],
+   [
+    "gloss-toggle",
+    20,
+    20
+   ],
+   [
+    "SUMMARY",
+    898,
+    32
+   ],
+   [
+    "file-input",
+    333,
+    25
+   ]
+  ]
+ },
+ {
+  "n": 27,
+  "fn": "overflow",
+  "dev": "desktop",
+  "did": "compare page scrollWidth to viewport",
+  "saw": {
+   "page": [
+    1440,
+    1440
+   ],
+   "chart": [
+    898,
+    898
+   ]
+  }
+ },
+ {
+  "n": 16,
+  "fn": "load-own-files",
+  "dev": "desktop",
+  "did": "pick own-1.json + own-2.json",
+  "saw": {
+   "stats": {
+    "deleted": "2",
+    "tracked": "3",
+    "ignored": "0"
+   },
+   "bars": [
+    [
+     "2026-10-01",
+     0
+    ],
+    [
+     "2026-10-02",
+     2
+    ]
+   ],
+   "cards": [
+    "a1",
+    "a3"
+   ],
+   "banner": false,
+   "err": "",
+   "xss_text": "<img src=x onerror=alert(1)> plain",
+   "img_count": 0
+  }
+ },
+ {
+  "n": 10,
+  "fn": "search-emoji-own",
+  "dev": "desktop",
+  "did": "type 🌞 on own data",
+  "saw": {
+   "heading": "All days · 1 deleted post",
+   "cards": [
+    "a1"
+   ]
+  }
+ },
+ {
+  "n": 23,
+  "fn": "refresh-own",
+  "dev": "desktop",
+  "did": "reload after loading own files",
+  "saw": {
+   "stats_deleted": "19",
+   "banner": true
+  }
+ },
+ {
+  "n": 17,
+  "fn": "single-file",
+  "dev": "desktop",
+  "did": "pick ['own-1.json']",
+  "saw": {
+   "err": "",
+   "stats_deleted": "0",
+   "tracked": "3",
+   "heading": "All days · 0 deleted posts",
+   "notes": "ing from the next. We only know it went missing somewhere between those two times.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.\nShowing your 1 files.",
+   "banner": false,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 18,
+  "fn": "empty-file",
+  "dev": "desktop",
+  "did": "pick ['empty.json']",
+  "saw": {
+   "err": "Could not use those files: empty.json: Unexpected end of JSON input",
+   "stats_deleted": "19",
+   "tracked": "30",
+   "heading": "All days · 19 deleted posts",
+   "notes": "nished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.",
+   "banner": true,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 19,
+  "fn": "malformed-file",
+  "dev": "desktop",
+  "did": "pick ['malformed.json']",
+  "saw": {
+   "err": "Could not use those files: malformed.json: Expected ',' or ']' after array element in JSON at position 68 (line 1 column 69)",
+   "stats_deleted": "19",
+   "tracked": "30",
+   "heading": "All days · 19 deleted posts",
+   "notes": "nished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.",
+   "banner": true,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 20,
+  "fn": "no-timezone",
+  "dev": "desktop",
+  "did": "pick ['nozone.json', 'own-1.json']",
+  "saw": {
+   "err": "Could not use those files: snapshot #1 captured_at \"2026-10-01T09:00:00\" has no time zone. Write it like 2026-09-01T09:00:00+08:00 or ...Z",
+   "stats_deleted": "19",
+   "tracked": "30",
+   "heading": "All days · 19 deleted posts",
+   "notes": "nished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.",
+   "banner": true,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 20,
+  "fn": "wrong-shape",
+  "dev": "desktop",
+  "did": "pick ['own-1.json', 'wrongshape.json']",
+  "saw": {
+   "err": "Could not use those files: snapshot #2 captured_at \"undefined\" has no time zone. Write it like 2026-09-01T09:00:00+08:00 or ...Z",
+   "stats_deleted": "19",
+   "tracked": "30",
+   "heading": "All days · 19 deleted posts",
+   "notes": "nished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.",
+   "banner": true,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 21,
+  "fn": "duplicate-files",
+  "dev": "desktop",
+  "did": "pick ['own-1.json', 'own-1.json', 'own-2.json']",
+  "saw": {
+   "err": "",
+   "stats_deleted": "2",
+   "tracked": "3",
+   "heading": "All days · 2 deleted posts",
+   "notes": "ing from the next. We only know it went missing somewhere between those two times.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.\nShowing your 3 files.",
+   "banner": false,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 22,
+  "fn": "large-files",
+  "dev": "desktop",
+  "did": "pick 20 files x ~5000 posts (11 MB)",
+  "saw": {
+   "seconds_to_render": 0.14,
+   "deleted": "950",
+   "cards_rendered": 18,
+   "search_seconds": 0.07,
+   "heading": "All days · 18 deleted posts"
+  }
+ },
+ {
+  "n": 31,
+  "fn": "shared-link",
+  "dev": "desktop",
+  "did": "open #day=2026-09-03&q=示例",
+  "saw": {
+   "heading": "Sep 3 · 2 deleted posts",
+   "search_box": "示例"
+  }
+ },
+ {
+  "n": 24,
+  "fn": "back-button",
+  "dev": "desktop",
+  "did": "select Sep 6 then press Back",
+  "saw": {
+   "url": "about:blank"
+  }
+ },
+ {
+  "n": 32,
+  "fn": "bad-hash-topic",
+  "dev": "desktop",
+  "did": "open #topic=doesnotexist",
+  "saw": {
+   "heading": "All days · 0 deleted posts",
+   "pressed": 0
+  }
+ },
+ {
+  "n": 28,
+  "fn": "console-errors",
+  "dev": "desktop",
+  "did": "collect console + page errors over all steps",
+  "saw": []
+ },
+ {
+  "n": 1,
+  "fn": "first-visit",
+  "dev": "iphone15",
+  "did": "open page fresh",
+  "saw": {
+   "h1": "Deleted Posts Explorer",
+   "hint": "Tap a bar to see that day's posts.",
+   "banner": true,
+   "own_panel_open": false
+  }
+ },
+ {
+  "n": 2,
+  "fn": "stats",
+  "dev": "iphone15",
+  "did": "read the 4 summary tiles",
+  "saw": {
+   "deleted": "19",
+   "tracked": "30",
+   "median": "about 38.9 hours",
+   "ignored": "1"
+  }
+ },
+ {
+  "n": 3,
+  "fn": "timeline-bars",
+  "dev": "iphone15",
+  "did": "read every bar count",
+  "saw": [
+   [
+    "2026-09-01",
+    0
+   ],
+   [
+    "2026-09-02",
+    1
+   ],
+   [
+    "2026-09-03",
+    2
+   ],
+   [
+    "2026-09-04",
+    4
+   ],
+   [
+    "2026-09-05",
+    2
+   ],
+   [
+    "2026-09-06",
+    7
+   ],
+   [
+    "2026-09-07",
+    0
+   ],
+   [
+    "2026-09-08",
+    3
+   ]
+  ]
+ },
+ {
+  "n": 4,
+  "fn": "select-day",
+  "dev": "iphone15",
+  "did": "tap Sep 6 bar",
+  "saw": {
+   "heading": "Sep 6 · 7 deleted posts",
+   "cards": [
+    "s015",
+    "s017",
+    "s019",
+    "s010",
+    "s018",
+    "s021",
+    "s022"
+   ],
+   "hash": "#day=2026-09-06"
+  }
+ },
+ {
+  "n": 23,
+  "fn": "refresh",
+  "dev": "iphone15",
+  "did": "reload while Sep 6 selected",
+  "saw": {
+   "heading": "Sep 6 · 7 deleted posts",
+   "hash": "#day=2026-09-06"
+  }
+ },
+ {
+  "n": 5,
+  "fn": "deselect-day",
+  "dev": "iphone15",
+  "did": "tap Sep 6 bar again",
+  "saw": {
+   "heading": "All days · 19 deleted posts"
+  }
+ },
+ {
+  "n": 6,
+  "fn": "show-all-days",
+  "dev": "iphone15",
+  "did": "select Sep 4 then Show all days",
+  "saw": {
+   "heading": "All days · 19 deleted posts",
+   "n": 19
+  }
+ },
+ {
+  "n": 7,
+  "fn": "search-partial",
+  "dev": "iphone15",
+  "did": "type \"sampl\"",
+  "saw": {
+   "heading": "All days · 19 deleted posts",
+   "cards": [
+    "s001",
+    "s003",
+    "s006",
+    "s005",
+    "s008",
+    "s009",
+    "s030",
+    "s012",
+    "s014",
+    "s015",
+    "s017",
+    "s019",
+    "s010",
+    "s018",
+    "s021",
+    "s022",
+    "s024",
+    "s025",
+    "s027"
+   ],
+   "bars": [
+    [
+     "2026-09-01",
+     0
+    ],
+    [
+     "2026-09-02",
+     1
+    ],
+    [
+     "2026-09-03",
+     2
+    ],
+    [
+     "2026-09-04",
+     4
+    ],
+    [
+     "2026-09-05",
+     2
+    ],
+    [
+     "2026-09-06",
+     7
+    ],
+    [
+     "2026-09-07",
+     0
+    ],
+    [
+     "2026-09-08",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "n": 9,
+  "fn": "search-chinese",
+  "dev": "iphone15",
+  "did": "type 示例市",
+  "saw": {
+   "heading": "All days · 6 deleted posts",
+   "cards": [
+    "s001",
+    "s006",
+    "s012",
+    "s010",
+    "s018",
+    "s025"
+   ]
+  }
+ },
+ {
+  "n": 8,
+  "fn": "search-no-results",
+  "dev": "iphone15",
+  "did": "type zzzqqq",
+  "saw": {
+   "heading": "All days · 0 deleted posts",
+   "empty": "No deleted posts match. Try another word or topic."
+  }
+ },
+ {
+  "n": 10,
+  "fn": "search-emoji-sample",
+  "dev": "iphone15",
+  "did": "type 🙂",
+  "saw": {
+   "heading": "All days · 0 deleted posts"
+  }
+ },
+ {
+  "n": 11,
+  "fn": "topic-filter",
+  "dev": "iphone15",
+  "did": "tap topic chip environment",
+  "saw": {
+   "chips": [
+    [
+     "all",
+     "All topics"
+    ],
+    [
+     "environment",
+     "Environment3"
+    ],
+    [
+     "food",
+     "Food safety3"
+    ],
+    [
+     "labor",
+     "Wages and work3"
+    ],
+    [
+     "health",
+     "Health2"
+    ],
+    [
+     "housing",
+     "Housing2"
+    ],
+    [
+     "disaster",
+     "Accidents and floods1"
+    ],
+    [
+     "officials",
+     "Officials2"
+    ],
+    [
+     "gathering",
+     "Gatherings and petitions2"
+    ],
+    [
+     "speech",
+     "Speech and deletion3"
+    ]
+   ],
+   "heading": "All days · 3 deleted posts",
+   "all_have_tag": true,
+   "bars": [
+    [
+     "2026-09-01",
+     0
+    ],
+    [
+     "2026-09-02",
+     1
+    ],
+    [
+     "2026-09-03",
+     1
+    ],
+    [
+     "2026-09-04",
+     0
+    ],
+    [
+     "2026-09-05",
+     0
+    ],
+    [
+     "2026-09-06",
+     0
+    ],
+    [
+     "2026-09-07",
+     0
+    ],
+    [
+     "2026-09-08",
+     1
+    ]
+   ]
+  }
+ },
+ {
+  "n": 12,
+  "fn": "gloss-toggle",
+  "dev": "iphone15",
+  "did": "untick Show English translation",
+  "saw": {
+   "gloss_before": 19,
+   "gloss_after": 0
+  }
+ },
+ {
+  "n": 14,
+  "fn": "edit-versions",
+  "dev": "iphone15",
+  "did": "open See every version on edited card",
+  "saw": "See every version\n样本河边的工地，三个月没发工资了，工人们今天去讨薪。 (Sep 2, 09:00)\n样本河边的工地，听说工资还没发。 (Sep 3, 09:00)"
+ },
+ {
+  "n": 15,
+  "fn": "notes",
+  "dev": "iphone15",
+  "did": "read Good to know",
+  "saw": "Good to know\nBuilt from 9 captures. A post counts as deleted when it is in one capture and missing from the next. We only know it went missing somewhere between those two times.\nOne capture was ignored (Sep 7, 09:00): 10 of 12 posts vanished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored.\nPosts that go up and come down between two captures are never seen, so they cannot appear here."
+ },
+ {
+  "n": 13,
+  "fn": "language-toggle",
+  "dev": "iphone15",
+  "did": "tap 中文",
+  "saw": {
+   "h1": "删帖观察 Deleted Posts Explorer",
+   "heading": "全部日期 · 删除 19 条",
+   "stat_label": "被删帖子",
+   "chart_label": "9月1日"
+  }
+ },
+ {
+  "n": 13,
+  "fn": "language-persist",
+  "dev": "iphone15",
+  "did": "reload after switching",
+  "saw": "删帖观察 Deleted Posts Explorer"
+ },
+ {
+  "n": 26,
+  "fn": "tap-targets",
+  "dev": "iphone15",
+  "did": "measure every control (<44px listed)",
+  "saw": [
+   [
+    "A",
+    94,
+    25
+   ],
+   [
+    "all-days",
+    124,
+    39
+   ],
+   [
+    "day-bar",
+    37,
+    180
+   ],
+   [
+    "day-bar",
+    37,
+    180
+   ],
+   [
+    "day-bar",
+    37,
+    180
+   ],
+   [
+    "day-bar",
+    37,
+    180
+   ],
+   [
+    "day-bar",
+    37,
+    180
+   ],
+   [
+    "day-bar",
+    37,
+    180
+   ],
+   [
+    "day-bar",
+    37,
+    180
+   ],
+   [
+    "day-bar",
+    37,
+    180
+   ],
+   [
+    "topic-chip:all",
+    90,
+    36
+   ],
+   [
+    "topic-chip:environment",
+    121,
+    36
+   ],
+   [
+    "topic-chip:food",
+    117,
+    36
+   ],
+   [
+    "topic-chip:labor",
+    148,
+    36
+   ],
+   [
+    "topic-chip:health",
+    82,
+    36
+   ],
+   [
+    "topic-chip:housing",
+    93,
+    36
+   ],
+   [
+    "topic-chip:disaster",
+    175,
+    36
+   ],
+   [
+    "topic-chip:officials",
+    93,
+    36
+   ],
+   [
+    "topic-chip:gathering",
+    201,
+    36
+   ],
+   [
+    "topic-chip:speech",
+    174,
+    36
+   ],
+   [
+    "gloss-toggle",
+    20,
+    20
+   ],
+   [
+    "SUMMARY",
+    328,
+    22
+   ],
+   [
+    "SUMMARY",
+    328,
+    22
+   ],
+   [
+    "SUMMARY",
+    331,
+    32
+   ],
+   [
+    "file-input",
+    331,
+    25
+   ]
+  ]
+ },
+ {
+  "n": 27,
+  "fn": "overflow",
+  "dev": "iphone15",
+  "did": "compare page scrollWidth to viewport",
+  "saw": {
+   "page": [
+    393,
+    393
+   ],
+   "chart": [
+    331,
+    331
+   ]
+  }
+ },
+ {
+  "n": 16,
+  "fn": "load-own-files",
+  "dev": "iphone15",
+  "did": "pick own-1.json + own-2.json",
+  "saw": {
+   "stats": {
+    "deleted": "2",
+    "tracked": "3",
+    "ignored": "0"
+   },
+   "bars": [
+    [
+     "2026-10-01",
+     0
+    ],
+    [
+     "2026-10-02",
+     2
+    ]
+   ],
+   "cards": [
+    "a1",
+    "a3"
+   ],
+   "banner": false,
+   "err": "",
+   "xss_text": "<img src=x onerror=alert(1)> plain",
+   "img_count": 0
+  }
+ },
+ {
+  "n": 10,
+  "fn": "search-emoji-own",
+  "dev": "iphone15",
+  "did": "type 🌞 on own data",
+  "saw": {
+   "heading": "All days · 1 deleted post",
+   "cards": [
+    "a1"
+   ]
+  }
+ },
+ {
+  "n": 23,
+  "fn": "refresh-own",
+  "dev": "iphone15",
+  "did": "reload after loading own files",
+  "saw": {
+   "stats_deleted": "19",
+   "banner": true
+  }
+ },
+ {
+  "n": 17,
+  "fn": "single-file",
+  "dev": "iphone15",
+  "did": "pick ['own-1.json']",
+  "saw": {
+   "err": "",
+   "stats_deleted": "0",
+   "tracked": "3",
+   "heading": "All days · 0 deleted posts",
+   "notes": "ing from the next. We only know it went missing somewhere between those two times.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.\nShowing your 1 files.",
+   "banner": false,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 18,
+  "fn": "empty-file",
+  "dev": "iphone15",
+  "did": "pick ['empty.json']",
+  "saw": {
+   "err": "Could not use those files: empty.json: Unexpected end of JSON input",
+   "stats_deleted": "19",
+   "tracked": "30",
+   "heading": "All days · 19 deleted posts",
+   "notes": "nished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.",
+   "banner": true,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 19,
+  "fn": "malformed-file",
+  "dev": "iphone15",
+  "did": "pick ['malformed.json']",
+  "saw": {
+   "err": "Could not use those files: malformed.json: Expected ',' or ']' after array element in JSON at position 68 (line 1 column 69)",
+   "stats_deleted": "19",
+   "tracked": "30",
+   "heading": "All days · 19 deleted posts",
+   "notes": "nished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.",
+   "banner": true,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 20,
+  "fn": "no-timezone",
+  "dev": "iphone15",
+  "did": "pick ['nozone.json', 'own-1.json']",
+  "saw": {
+   "err": "Could not use those files: snapshot #1 captured_at \"2026-10-01T09:00:00\" has no time zone. Write it like 2026-09-01T09:00:00+08:00 or ...Z",
+   "stats_deleted": "19",
+   "tracked": "30",
+   "heading": "All days · 19 deleted posts",
+   "notes": "nished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.",
+   "banner": true,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 20,
+  "fn": "wrong-shape",
+  "dev": "iphone15",
+  "did": "pick ['own-1.json', 'wrongshape.json']",
+  "saw": {
+   "err": "Could not use those files: snapshot #2 captured_at \"undefined\" has no time zone. Write it like 2026-09-01T09:00:00+08:00 or ...Z",
+   "stats_deleted": "19",
+   "tracked": "30",
+   "heading": "All days · 19 deleted posts",
+   "notes": "nished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.",
+   "banner": true,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 21,
+  "fn": "duplicate-files",
+  "dev": "iphone15",
+  "did": "pick ['own-1.json', 'own-1.json', 'own-2.json']",
+  "saw": {
+   "err": "",
+   "stats_deleted": "2",
+   "tracked": "3",
+   "heading": "All days · 2 deleted posts",
+   "notes": "ing from the next. We only know it went missing somewhere between those two times.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.\nShowing your 3 files.",
+   "banner": false,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 31,
+  "fn": "shared-link",
+  "dev": "iphone15",
+  "did": "open #day=2026-09-03&q=示例",
+  "saw": {
+   "heading": "Sep 3 · 2 deleted posts",
+   "search_box": "示例"
+  }
+ },
+ {
+  "n": 24,
+  "fn": "back-button",
+  "dev": "iphone15",
+  "did": "select Sep 6 then press Back",
+  "saw": {
+   "url": "about:blank"
+  }
+ },
+ {
+  "n": 32,
+  "fn": "bad-hash-topic",
+  "dev": "iphone15",
+  "did": "open #topic=doesnotexist",
+  "saw": {
+   "heading": "All days · 0 deleted posts",
+   "pressed": 0
+  }
+ },
+ {
+  "n": 28,
+  "fn": "console-errors",
+  "dev": "iphone15",
+  "did": "collect console + page errors over all steps",
+  "saw": []
+ },
+ {
+  "n": 1,
+  "fn": "first-visit",
+  "dev": "pixel7",
+  "did": "open page fresh",
+  "saw": {
+   "h1": "Deleted Posts Explorer",
+   "hint": "Tap a bar to see that day's posts.",
+   "banner": true,
+   "own_panel_open": false
+  }
+ },
+ {
+  "n": 2,
+  "fn": "stats",
+  "dev": "pixel7",
+  "did": "read the 4 summary tiles",
+  "saw": {
+   "deleted": "19",
+   "tracked": "30",
+   "median": "about 38.9 hours",
+   "ignored": "1"
+  }
+ },
+ {
+  "n": 3,
+  "fn": "timeline-bars",
+  "dev": "pixel7",
+  "did": "read every bar count",
+  "saw": [
+   [
+    "2026-09-01",
+    0
+   ],
+   [
+    "2026-09-02",
+    1
+   ],
+   [
+    "2026-09-03",
+    2
+   ],
+   [
+    "2026-09-04",
+    4
+   ],
+   [
+    "2026-09-05",
+    2
+   ],
+   [
+    "2026-09-06",
+    7
+   ],
+   [
+    "2026-09-07",
+    0
+   ],
+   [
+    "2026-09-08",
+    3
+   ]
+  ]
+ },
+ {
+  "n": 4,
+  "fn": "select-day",
+  "dev": "pixel7",
+  "did": "tap Sep 6 bar",
+  "saw": {
+   "heading": "Sep 6 · 7 deleted posts",
+   "cards": [
+    "s015",
+    "s017",
+    "s019",
+    "s010",
+    "s018",
+    "s021",
+    "s022"
+   ],
+   "hash": "#day=2026-09-06"
+  }
+ },
+ {
+  "n": 23,
+  "fn": "refresh",
+  "dev": "pixel7",
+  "did": "reload while Sep 6 selected",
+  "saw": {
+   "heading": "Sep 6 · 7 deleted posts",
+   "hash": "#day=2026-09-06"
+  }
+ },
+ {
+  "n": 5,
+  "fn": "deselect-day",
+  "dev": "pixel7",
+  "did": "tap Sep 6 bar again",
+  "saw": {
+   "heading": "All days · 19 deleted posts"
+  }
+ },
+ {
+  "n": 6,
+  "fn": "show-all-days",
+  "dev": "pixel7",
+  "did": "select Sep 4 then Show all days",
+  "saw": {
+   "heading": "All days · 19 deleted posts",
+   "n": 19
+  }
+ },
+ {
+  "n": 7,
+  "fn": "search-partial",
+  "dev": "pixel7",
+  "did": "type \"sampl\"",
+  "saw": {
+   "heading": "All days · 19 deleted posts",
+   "cards": [
+    "s001",
+    "s003",
+    "s006",
+    "s005",
+    "s008",
+    "s009",
+    "s030",
+    "s012",
+    "s014",
+    "s015",
+    "s017",
+    "s019",
+    "s010",
+    "s018",
+    "s021",
+    "s022",
+    "s024",
+    "s025",
+    "s027"
+   ],
+   "bars": [
+    [
+     "2026-09-01",
+     0
+    ],
+    [
+     "2026-09-02",
+     1
+    ],
+    [
+     "2026-09-03",
+     2
+    ],
+    [
+     "2026-09-04",
+     4
+    ],
+    [
+     "2026-09-05",
+     2
+    ],
+    [
+     "2026-09-06",
+     7
+    ],
+    [
+     "2026-09-07",
+     0
+    ],
+    [
+     "2026-09-08",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "n": 9,
+  "fn": "search-chinese",
+  "dev": "pixel7",
+  "did": "type 示例市",
+  "saw": {
+   "heading": "All days · 6 deleted posts",
+   "cards": [
+    "s001",
+    "s006",
+    "s012",
+    "s010",
+    "s018",
+    "s025"
+   ]
+  }
+ },
+ {
+  "n": 8,
+  "fn": "search-no-results",
+  "dev": "pixel7",
+  "did": "type zzzqqq",
+  "saw": {
+   "heading": "All days · 0 deleted posts",
+   "empty": "No deleted posts match. Try another word or topic."
+  }
+ },
+ {
+  "n": 10,
+  "fn": "search-emoji-sample",
+  "dev": "pixel7",
+  "did": "type 🙂",
+  "saw": {
+   "heading": "All days · 0 deleted posts"
+  }
+ },
+ {
+  "n": 11,
+  "fn": "topic-filter",
+  "dev": "pixel7",
+  "did": "tap topic chip environment",
+  "saw": {
+   "chips": [
+    [
+     "all",
+     "All topics"
+    ],
+    [
+     "environment",
+     "Environment3"
+    ],
+    [
+     "food",
+     "Food safety3"
+    ],
+    [
+     "labor",
+     "Wages and work3"
+    ],
+    [
+     "health",
+     "Health2"
+    ],
+    [
+     "housing",
+     "Housing2"
+    ],
+    [
+     "disaster",
+     "Accidents and floods1"
+    ],
+    [
+     "officials",
+     "Officials2"
+    ],
+    [
+     "gathering",
+     "Gatherings and petitions2"
+    ],
+    [
+     "speech",
+     "Speech and deletion3"
+    ]
+   ],
+   "heading": "All days · 3 deleted posts",
+   "all_have_tag": true,
+   "bars": [
+    [
+     "2026-09-01",
+     0
+    ],
+    [
+     "2026-09-02",
+     1
+    ],
+    [
+     "2026-09-03",
+     1
+    ],
+    [
+     "2026-09-04",
+     0
+    ],
+    [
+     "2026-09-05",
+     0
+    ],
+    [
+     "2026-09-06",
+     0
+    ],
+    [
+     "2026-09-07",
+     0
+    ],
+    [
+     "2026-09-08",
+     1
+    ]
+   ]
+  }
+ },
+ {
+  "n": 12,
+  "fn": "gloss-toggle",
+  "dev": "pixel7",
+  "did": "untick Show English translation",
+  "saw": {
+   "gloss_before": 19,
+   "gloss_after": 0
+  }
+ },
+ {
+  "n": 14,
+  "fn": "edit-versions",
+  "dev": "pixel7",
+  "did": "open See every version on edited card",
+  "saw": "See every version\n样本河边的工地，三个月没发工资了，工人们今天去讨薪。 (Sep 2, 09:00)\n样本河边的工地，听说工资还没发。 (Sep 3, 09:00)"
+ },
+ {
+  "n": 15,
+  "fn": "notes",
+  "dev": "pixel7",
+  "did": "read Good to know",
+  "saw": "Good to know\nBuilt from 9 captures. A post counts as deleted when it is in one capture and missing from the next. We only know it went missing somewhere between those two times.\nOne capture was ignored (Sep 7, 09:00): 10 of 12 posts vanished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored.\nPosts that go up and come down between two captures are never seen, so they cannot appear here."
+ },
+ {
+  "n": 13,
+  "fn": "language-toggle",
+  "dev": "pixel7",
+  "did": "tap 中文",
+  "saw": {
+   "h1": "删帖观察 Deleted Posts Explorer",
+   "heading": "全部日期 · 删除 19 条",
+   "stat_label": "被删帖子",
+   "chart_label": "9月1日"
+  }
+ },
+ {
+  "n": 13,
+  "fn": "language-persist",
+  "dev": "pixel7",
+  "did": "reload after switching",
+  "saw": "删帖观察 Deleted Posts Explorer"
+ },
+ {
+  "n": 26,
+  "fn": "tap-targets",
+  "dev": "pixel7",
+  "did": "measure every control (<44px listed)",
+  "saw": [
+   [
+    "A",
+    94,
+    25
+   ],
+   [
+    "all-days",
+    124,
+    39
+   ],
+   [
+    "day-bar",
+    39,
+    180
+   ],
+   [
+    "day-bar",
+    39,
+    180
+   ],
+   [
+    "day-bar",
+    39,
+    180
+   ],
+   [
+    "day-bar",
+    39,
+    180
+   ],
+   [
+    "day-bar",
+    39,
+    180
+   ],
+   [
+    "day-bar",
+    39,
+    180
+   ],
+   [
+    "day-bar",
+    39,
+    180
+   ],
+   [
+    "day-bar",
+    39,
+    180
+   ],
+   [
+    "topic-chip:all",
+    90,
+    36
+   ],
+   [
+    "topic-chip:environment",
+    121,
+    36
+   ],
+   [
+    "topic-chip:food",
+    117,
+    36
+   ],
+   [
+    "topic-chip:labor",
+    148,
+    36
+   ],
+   [
+    "topic-chip:health",
+    82,
+    36
+   ],
+   [
+    "topic-chip:housing",
+    93,
+    36
+   ],
+   [
+    "topic-chip:disaster",
+    175,
+    36
+   ],
+   [
+    "topic-chip:officials",
+    93,
+    36
+   ],
+   [
+    "topic-chip:gathering",
+    201,
+    36
+   ],
+   [
+    "topic-chip:speech",
+    174,
+    36
+   ],
+   [
+    "gloss-toggle",
+    20,
+    20
+   ],
+   [
+    "SUMMARY",
+    347,
+    22
+   ],
+   [
+    "SUMMARY",
+    347,
+    22
+   ],
+   [
+    "SUMMARY",
+    350,
+    32
+   ],
+   [
+    "file-input",
+    333,
+    25
+   ]
+  ]
+ },
+ {
+  "n": 27,
+  "fn": "overflow",
+  "dev": "pixel7",
+  "did": "compare page scrollWidth to viewport",
+  "saw": {
+   "page": [
+    412,
+    412
+   ],
+   "chart": [
+    350,
+    350
+   ]
+  }
+ },
+ {
+  "n": 16,
+  "fn": "load-own-files",
+  "dev": "pixel7",
+  "did": "pick own-1.json + own-2.json",
+  "saw": {
+   "stats": {
+    "deleted": "2",
+    "tracked": "3",
+    "ignored": "0"
+   },
+   "bars": [
+    [
+     "2026-10-01",
+     0
+    ],
+    [
+     "2026-10-02",
+     2
+    ]
+   ],
+   "cards": [
+    "a1",
+    "a3"
+   ],
+   "banner": false,
+   "err": "",
+   "xss_text": "<img src=x onerror=alert(1)> plain",
+   "img_count": 0
+  }
+ },
+ {
+  "n": 10,
+  "fn": "search-emoji-own",
+  "dev": "pixel7",
+  "did": "type 🌞 on own data",
+  "saw": {
+   "heading": "All days · 1 deleted post",
+   "cards": [
+    "a1"
+   ]
+  }
+ },
+ {
+  "n": 23,
+  "fn": "refresh-own",
+  "dev": "pixel7",
+  "did": "reload after loading own files",
+  "saw": {
+   "stats_deleted": "19",
+   "banner": true
+  }
+ },
+ {
+  "n": 17,
+  "fn": "single-file",
+  "dev": "pixel7",
+  "did": "pick ['own-1.json']",
+  "saw": {
+   "err": "",
+   "stats_deleted": "0",
+   "tracked": "3",
+   "heading": "All days · 0 deleted posts",
+   "notes": "ing from the next. We only know it went missing somewhere between those two times.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.\nShowing your 1 files.",
+   "banner": false,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 18,
+  "fn": "empty-file",
+  "dev": "pixel7",
+  "did": "pick ['empty.json']",
+  "saw": {
+   "err": "Could not use those files: empty.json: Unexpected end of JSON input",
+   "stats_deleted": "19",
+   "tracked": "30",
+   "heading": "All days · 19 deleted posts",
+   "notes": "nished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.",
+   "banner": true,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 19,
+  "fn": "malformed-file",
+  "dev": "pixel7",
+  "did": "pick ['malformed.json']",
+  "saw": {
+   "err": "Could not use those files: malformed.json: Expected ',' or ']' after array element in JSON at position 68 (line 1 column 69)",
+   "stats_deleted": "19",
+   "tracked": "30",
+   "heading": "All days · 19 deleted posts",
+   "notes": "nished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.",
+   "banner": true,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 20,
+  "fn": "no-timezone",
+  "dev": "pixel7",
+  "did": "pick ['nozone.json', 'own-1.json']",
+  "saw": {
+   "err": "Could not use those files: snapshot #1 captured_at \"2026-10-01T09:00:00\" has no time zone. Write it like 2026-09-01T09:00:00+08:00 or ...Z",
+   "stats_deleted": "19",
+   "tracked": "30",
+   "heading": "All days · 19 deleted posts",
+   "notes": "nished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.",
+   "banner": true,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 20,
+  "fn": "wrong-shape",
+  "dev": "pixel7",
+  "did": "pick ['own-1.json', 'wrongshape.json']",
+  "saw": {
+   "err": "Could not use those files: snapshot #2 captured_at \"undefined\" has no time zone. Write it like 2026-09-01T09:00:00+08:00 or ...Z",
+   "stats_deleted": "19",
+   "tracked": "30",
+   "heading": "All days · 19 deleted posts",
+   "notes": "nished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.",
+   "banner": true,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 21,
+  "fn": "duplicate-files",
+  "dev": "pixel7",
+  "did": "pick ['own-1.json', 'own-1.json', 'own-2.json']",
+  "saw": {
+   "err": "",
+   "stats_deleted": "2",
+   "tracked": "3",
+   "heading": "All days · 2 deleted posts",
+   "notes": "ing from the next. We only know it went missing somewhere between those two times.\nPosts that go up and come down between two captures are never seen, so they cannot appear here.\nShowing your 3 files.",
+   "banner": false,
+   "warnings_count": 3
+  }
+ },
+ {
+  "n": 31,
+  "fn": "shared-link",
+  "dev": "pixel7",
+  "did": "open #day=2026-09-03&q=示例",
+  "saw": {
+   "heading": "Sep 3 · 2 deleted posts",
+   "search_box": "示例"
+  }
+ },
+ {
+  "n": 24,
+  "fn": "back-button",
+  "dev": "pixel7",
+  "did": "select Sep 6 then press Back",
+  "saw": {
+   "url": "about:blank"
+  }
+ },
+ {
+  "n": 32,
+  "fn": "bad-hash-topic",
+  "dev": "pixel7",
+  "did": "open #topic=doesnotexist",
+  "saw": {
+   "heading": "All days · 0 deleted posts",
+   "pressed": 0
+  }
+ },
+ {
+  "n": 28,
+  "fn": "console-errors",
+  "dev": "pixel7",
+  "did": "collect console + page errors over all steps",
+  "saw": []
+ },
+ {
+  "n": 29,
+  "fn": "open-from-disk",
+  "dev": "desktop",
+  "did": "open web/index.html via file://",
+  "saw": {
+   "cards": 19,
+   "errors": []
+  }
+ }
+]

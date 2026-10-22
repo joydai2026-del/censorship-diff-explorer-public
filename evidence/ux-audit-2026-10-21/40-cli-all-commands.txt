@@ -1,0 +1,250 @@
+$ node cli/diff.mjs --help
+Usage: node cli/diff.mjs <snapshot-folder> [options]
+
+Reads every *.json file in the folder (one snapshot each) and reports which
+posts disappeared between captures.
+
+Options:
+  --topics <file>     keyword list for topic tags (see data/topics.json)
+  --out <file>        write the full JSON result to a file instead of stdout
+  --js <file>         also write it as a script the web page can load offline
+  --tz-offset <min>   minutes east of UTC used to group by day (default 480 = Beijing)
+  --max-drop <0..1>   share of posts that may vanish at once before a capture is
+                      checked for being broken (default 0.5, 1 turns the check off)
+  --summary           print one plain line per day instead of JSON
+[exit 0]
+
+$ node cli/diff.mjs data/sample/snapshots --topics data/topics.json
+{
+  "meta": {
+    "sample": true,
+    "notice": "Sample data for demo, not real posts",
+    "platform": "sample-microblog (fictional)",
+    "snapshotCount": 9,
+    "firstCapture": "2026-09-01T09:00:00+08:00",
+    "lastCapture": "2026-09-08T09:00:00+08:00",
+[exit 0]
+
+$ node cli/diff.mjs data/sample/snapshots --summary
+NOTE: Sample data for demo, not real posts
+2026-09-01  0 deleted
+2026-09-02  1 deleted
+2026-09-03  2 deleted
+2026-09-04  4 deleted
+2026-09-05  2 deleted
+2026-09-06  7 deleted
+2026-09-07  0 deleted
+2026-09-08  3 deleted
+ignored capture 2026-09-07T09:00:00+08:00: 10 of 12 posts vanished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored
+total: 19 deleted of 30 posts seen
+[exit 0]
+
+$ node cli/diff.mjs data/sample/snapshots --out <tmp>/result.json --js <tmp>/web/data/diff.js
+[exit 0]
+
+-rw-r--r--@ 1 user  wheel  67086 Oct 21 12:07 <tmp>/result.json
+-rw-r--r--@ 1 user  wheel  67105 Oct 21 12:07 <tmp>/web/data/diff.js
+$ node cli/diff.mjs data/sample/snapshots --tz-offset 0 --max-drop 1 --summary
+NOTE: Sample data for demo, not real posts
+2026-09-01  0 deleted
+2026-09-02  1 deleted
+2026-09-03  2 deleted
+2026-09-04  4 deleted
+2026-09-05  5 deleted
+2026-09-06  4 deleted
+2026-09-07  3 deleted
+2026-09-08  0 deleted
+total: 19 deleted of 30 posts seen
+[exit 0]
+
+$ npm run --silent build
+[exit 0]
+
+$ node cli/diff.mjs
+Usage: node cli/diff.mjs <snapshot-folder> [options]
+
+Reads every *.json file in the folder (one snapshot each) and reports which
+posts disappeared between captures.
+
+Options:
+  --topics <file>     keyword list for topic tags (see data/topics.json)
+  --out <file>        write the full JSON result to a file instead of stdout
+  --js <file>         also write it as a script the web page can load offline
+  --tz-offset <min>   minutes east of UTC used to group by day (default 480 = Beijing)
+  --max-drop <0..1>   share of posts that may vanish at once before a capture is
+                      checked for being broken (default 0.5, 1 turns the check off)
+  --summary           print one plain line per day instead of JSON
+
+[exit 2]
+
+$ node cli/diff.mjs data/sample/snapshots --bogus
+Unknown option --bogus
+
+Usage: node cli/diff.mjs <snapshot-folder> [options]
+
+Reads every *.json file in the folder (one snapshot each) and reports which
+posts disappeared between captures.
+
+Options:
+  --topics <file>     keyword list for topic tags (see data/topics.json)
+  --out <file>        write the full JSON result to a file instead of stdout
+  --js <file>         also write it as a script the web page can load offline
+  --tz-offset <min>   minutes east of UTC used to group by day (default 480 = Beijing)
+  --max-drop <0..1>   share of posts that may vanish at once before a capture is
+                      checked for being broken (default 0.5, 1 turns the check off)
+  --summary           print one plain line per day instead of JSON
+[exit 2]
+
+$ node cli/diff.mjs data/sample/snapshots --tz-offset
+--tz-offset needs a number
+
+Usage: node cli/diff.mjs <snapshot-folder> [options]
+
+Reads every *.json file in the folder (one snapshot each) and reports which
+posts disappeared between captures.
+
+Options:
+  --topics <file>     keyword list for topic tags (see data/topics.json)
+  --out <file>        write the full JSON result to a file instead of stdout
+  --js <file>         also write it as a script the web page can load offline
+  --tz-offset <min>   minutes east of UTC used to group by day (default 480 = Beijing)
+  --max-drop <0..1>   share of posts that may vanish at once before a capture is
+                      checked for being broken (default 0.5, 1 turns the check off)
+  --summary           print one plain line per day instead of JSON
+[exit 2]
+
+$ node cli/diff.mjs data/sample/snapshots --tz-offset abc
+--tz-offset needs a number
+
+Usage: node cli/diff.mjs <snapshot-folder> [options]
+
+Reads every *.json file in the folder (one snapshot each) and reports which
+posts disappeared between captures.
+
+Options:
+  --topics <file>     keyword list for topic tags (see data/topics.json)
+  --out <file>        write the full JSON result to a file instead of stdout
+  --js <file>         also write it as a script the web page can load offline
+  --tz-offset <min>   minutes east of UTC used to group by day (default 480 = Beijing)
+  --max-drop <0..1>   share of posts that may vanish at once before a capture is
+                      checked for being broken (default 0.5, 1 turns the check off)
+  --summary           print one plain line per day instead of JSON
+[exit 2]
+
+$ node cli/diff.mjs data/sample/snapshots --max-drop 5 --summary
+NOTE: Sample data for demo, not real posts
+2026-09-01  0 deleted
+2026-09-02  1 deleted
+2026-09-03  2 deleted
+2026-09-04  4 deleted
+2026-09-05  2 deleted
+2026-09-06  7 deleted
+2026-09-07  3 deleted
+2026-09-08  0 deleted
+total: 19 deleted of 30 posts seen
+[exit 0]
+
+$ node cli/diff.mjs data/sample/snapshots --max-drop -1 --summary
+NOTE: Sample data for demo, not real posts
+2026-09-01  0 deleted
+2026-09-02  1 deleted
+2026-09-03  2 deleted
+2026-09-04  4 deleted
+2026-09-05  2 deleted
+2026-09-06  7 deleted
+2026-09-07  0 deleted
+2026-09-08  3 deleted
+ignored capture 2026-09-07T09:00:00+08:00: 10 of 12 posts vanished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored
+warning: 3 of 12 posts vanished in the last capture (2026-09-08T09:00:00+08:00). This could not be confirmed by a later capture.
+total: 19 deleted of 30 posts seen
+[exit 0]
+
+$ node cli/diff.mjs data/sample/snapshots --tz-offset 99999 --summary
+NOTE: Sample data for demo, not real posts
+2026-11-09  0 deleted
+2026-11-10  1 deleted
+2026-11-11  2 deleted
+2026-11-12  4 deleted
+2026-11-13  2 deleted
+2026-11-14  7 deleted
+2026-11-15  0 deleted
+2026-11-16  3 deleted
+ignored capture 2026-09-07T09:00:00+08:00: 10 of 12 posts vanished at once and 7 came back in the next capture, so this looks like a broken capture and was ignored
+total: 19 deleted of 30 posts seen
+[exit 0]
+
+$ node cli/diff.mjs data/sample/snapshots --out
+--out needs a file name
+
+Usage: node cli/diff.mjs <snapshot-folder> [options]
+
+Reads every *.json file in the folder (one snapshot each) and reports which
+posts disappeared between captures.
+
+Options:
+  --topics <file>     keyword list for topic tags (see data/topics.json)
+  --out <file>        write the full JSON result to a file instead of stdout
+  --js <file>         also write it as a script the web page can load offline
+  --tz-offset <min>   minutes east of UTC used to group by day (default 480 = Beijing)
+  --max-drop <0..1>   share of posts that may vanish at once before a capture is
+                      checked for being broken (default 0.5, 1 turns the check off)
+  --summary           print one plain line per day instead of JSON
+[exit 2]
+
+$ node cli/diff.mjs a b
+Only one folder, please
+
+Usage: node cli/diff.mjs <snapshot-folder> [options]
+
+Reads every *.json file in the folder (one snapshot each) and reports which
+posts disappeared between captures.
+
+Options:
+  --topics <file>     keyword list for topic tags (see data/topics.json)
+  --out <file>        write the full JSON result to a file instead of stdout
+  --js <file>         also write it as a script the web page can load offline
+  --tz-offset <min>   minutes east of UTC used to group by day (default 480 = Beijing)
+  --max-drop <0..1>   share of posts that may vanish at once before a capture is
+                      checked for being broken (default 0.5, 1 turns the check off)
+  --summary           print one plain line per day instead of JSON
+[exit 2]
+
+$ node cli/diff.mjs /nope/missing
+Could not open folder /nope/missing: ENOENT: no such file or directory, stat '/nope/missing'
+[exit 1]
+
+$ node cli/diff.mjs README.md
+README.md is not a folder
+[exit 1]
+
+$ node cli/diff.mjs <tmp>/nojson --summary
+total: 0 deleted of 0 posts seen
+[exit 0]
+
+$ node cli/diff.mjs <tmp>/empty
+Could not read <tmp>/empty/empty.json: Unexpected end of JSON input
+[exit 1]
+
+$ node cli/diff.mjs <tmp>/bad
+Could not read <tmp>/bad/malformed.json: Expected ',' or ']' after array element in JSON at position 68 (line 1 column 69)
+[exit 1]
+
+$ node cli/diff.mjs <tmp>/one --summary
+2026-10-01  0 deleted
+total: 0 deleted of 3 posts seen
+[exit 0]
+
+$ node cli/diff.mjs <tmp>/own --summary
+2026-10-01  0 deleted
+2026-10-02  2 deleted
+total: 2 deleted of 3 posts seen
+[exit 0]
+
+$ node cli/diff.mjs data/sample/snapshots --topics /nope.json
+Could not read /nope.json: ENOENT: no such file or directory, open '/nope.json'
+[exit 1]
+
+$ node cli/diff.mjs <tmp>/fx --summary
+Could not read <tmp>/fx/empty.json: Unexpected end of JSON input
+[exit 1]
+

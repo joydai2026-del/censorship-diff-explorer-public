@@ -1,0 +1,71 @@
+{
+  "sample": true,
+  "notice": "Sample data for demo, not real posts",
+  "platform": "sample-microblog (fictional)",
+  "captured_at": "2026-09-03T09:00:00+08:00",
+  "posts": [
+    {
+      "id": "s002",
+      "account": "sample_teapot_uncle 示例_茶壶大叔",
+      "posted_at": "2026-08-31T19:00:00+08:00",
+      "text": "今天泡了一壶新茶，配月饼刚好。",
+      "gloss": "Brewed a pot of new tea today. Perfect with mooncakes."
+    },
+    {
+      "id": "s004",
+      "account": "sample_blue_bicycle 示例_蓝色单车",
+      "posted_at": "2026-09-01T08:15:00+08:00",
+      "text": "早高峰骑车上班，比地铁还快。",
+      "gloss": "Biked to work in rush hour. Faster than the subway."
+    },
+    {
+      "id": "s005",
+      "account": "sample_rainy_window 示例_雨窗",
+      "posted_at": "2026-09-01T12:40:00+08:00",
+      "text": "样本河边的工地，听说工资还没发。",
+      "gloss": "The building site by Sample River has not paid wages in three months. Workers went to demand their pay today."
+    },
+    {
+      "id": "s007",
+      "account": "sample_paper_kite 示例_纸风筝",
+      "posted_at": "2026-09-02T10:00:00+08:00",
+      "text": "周末去放风筝，天气太好了。",
+      "gloss": "Flew a kite this weekend. Gorgeous weather."
+    },
+    {
+      "id": "s008",
+      "account": "sample_river_watch 示例_样本河观察",
+      "posted_at": "2026-09-02T14:20:00+08:00",
+      "text": "暴雨之后虚构县的老桥倒塌了，救援队还在找人。",
+      "gloss": "After the heavy rain, the old bridge in Fictional County collapsed. Rescue teams are still searching for people."
+    },
+    {
+      "id": "s009",
+      "account": "sample_bamboo_cat 示例_竹林小猫",
+      "posted_at": "2026-09-02T18:05:00+08:00",
+      "text": "示例小区烂尾三年，业主们商量要不要停贷。",
+      "gloss": "Our Sample Estate housing project has sat unfinished for three years. Homeowners are discussing stopping mortgage payments."
+    },
+    {
+      "id": "s010",
+      "account": "sample_teapot_uncle 示例_茶壶大叔",
+      "posted_at": "2026-09-02T20:30:00+08:00",
+      "text": "示例市医院发烧门诊排了四个小时，病人都坐在走廊。",
+      "gloss": "The fever clinic at a Sample City hospital had a four-hour line. Patients were sitting in the hallway."
+    },
+    {
+      "id": "s011",
+      "account": "sample_noodle_stand 示例_面馆老板",
+      "posted_at": "2026-09-03T06:50:00+08:00",
+      "text": "今天的牛肉面加了新辣椒，欢迎来尝。",
+      "gloss": "Added a new chili to today's beef noodles. Come try it."
+    },
+    {
+      "id": "s030",
+      "account": "sample_paper_kite 示例_纸风筝",
+      "posted_at": "2026-09-02T21:00:00+08:00",
+      "text": "虚构县学校食堂用过期的肉，家长们在群里都炸了。",
+      "gloss": "A school cafeteria in Fictional County used expired meat. Parents in the group chat are furious."
+    }
+  ]
+}

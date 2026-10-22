@@ -1,0 +1,47 @@
+name: Deploy to GitHub Pages (manual only)
+
+# NOT active. This only runs when someone presses "Run workflow" in the Actions tab.
+# Before it can work:
+#   1. The repo must be public (GitHub Free does not serve Pages from private repos).
+#   2. Settings > Pages > Source must be set to "GitHub Actions".
+# The site is fully static and the data is the committed sample, so there is no
+# scheduled data refresh. If a real snapshot source is ever added, add a
+# `schedule:` trigger here (for example cron: '0 6 * * *') after the
+# `npm run build` step is pointed at the new snapshots.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      - run: npm ci
+      - run: npm test
+      - name: Assemble static site (web/ needs ../src/engine.js)
+        run: |
+          mkdir -p _site
+          cp -R web src _site/
+          printf '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=web/"><a href="web/">Open the explorer</a>\n' > _site/index.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

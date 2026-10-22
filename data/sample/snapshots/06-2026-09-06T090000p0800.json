@@ -1,0 +1,92 @@
+{
+  "sample": true,
+  "notice": "Sample data for demo, not real posts",
+  "platform": "sample-microblog (fictional)",
+  "captured_at": "2026-09-06T09:00:00+08:00",
+  "posts": [
+    {
+      "id": "s002",
+      "account": "sample_teapot_uncle 示例_茶壶大叔",
+      "posted_at": "2026-08-31T19:00:00+08:00",
+      "text": "今天泡了一壶新茶，配月饼刚好。",
+      "gloss": "Brewed a pot of new tea today. Perfect with mooncakes."
+    },
+    {
+      "id": "s004",
+      "account": "sample_blue_bicycle 示例_蓝色单车",
+      "posted_at": "2026-09-01T08:15:00+08:00",
+      "text": "早高峰骑车上班，比地铁还快。",
+      "gloss": "Biked to work in rush hour. Faster than the subway."
+    },
+    {
+      "id": "s007",
+      "account": "sample_paper_kite 示例_纸风筝",
+      "posted_at": "2026-09-02T10:00:00+08:00",
+      "text": "周末去放风筝，天气太好了。",
+      "gloss": "Flew a kite this weekend. Gorgeous weather."
+    },
+    {
+      "id": "s011",
+      "account": "sample_noodle_stand 示例_面馆老板",
+      "posted_at": "2026-09-03T06:50:00+08:00",
+      "text": "今天的牛肉面加了新辣椒，欢迎来尝。",
+      "gloss": "Added a new chili to today's beef noodles. Come try it."
+    },
+    {
+      "id": "s013",
+      "account": "sample_night_owl 示例_夜猫子",
+      "posted_at": "2026-09-03T15:00:00+08:00",
+      "text": "有人知道哪家书店开到半夜吗？",
+      "gloss": "Does anyone know a bookstore that stays open until midnight?"
+    },
+    {
+      "id": "s016",
+      "account": "sample_river_watch 示例_样本河观察",
+      "posted_at": "2026-09-04T10:10:00+08:00",
+      "text": "样本河今天水位回落了，河边散步的人又多了。",
+      "gloss": "Sample River's water level dropped today. More people are walking along the bank again."
+    },
+    {
+      "id": "s020",
+      "account": "sample_blue_bicycle 示例_蓝色单车",
+      "posted_at": "2026-09-05T09:30:00+08:00",
+      "text": "新开的自行车道很好用，点赞。",
+      "gloss": "The new bike lane works great. Thumbs up."
+    },
+    {
+      "id": "s023",
+      "account": "sample_paper_kite 示例_纸风筝",
+      "posted_at": "2026-09-05T20:00:00+08:00",
+      "text": "晚饭做了红烧肉，第一次成功。",
+      "gloss": "Made braised pork for dinner. First time it worked."
+    },
+    {
+      "id": "s024",
+      "account": "sample_river_watch 示例_样本河观察",
+      "posted_at": "2026-09-06T07:40:00+08:00",
+      "text": "虚构县化工厂排放的污水流进样本河，鱼死了一片。",
+      "gloss": "Wastewater from the Fictional County chemical plant flowed into Sample River. A stretch of fish died."
+    },
+    {
+      "id": "s025",
+      "account": "sample_bamboo_cat 示例_竹林小猫",
+      "posted_at": "2026-09-06T08:20:00+08:00",
+      "text": "示例市问责名单出来了，为什么只有小官？",
+      "gloss": "The Sample City accountability list is out. Why are only junior officials on it?"
+    },
+    {
+      "id": "s026",
+      "account": "sample_teapot_uncle 示例_茶壶大叔",
+      "posted_at": "2026-09-06T08:45:00+08:00",
+      "text": "秋天到了，公园的桂花开了。",
+      "gloss": "Autumn is here. The osmanthus in the park is blooming."
+    },
+    {
+      "id": "s027",
+      "account": "sample_noodle_stand 示例_面馆老板",
+      "posted_at": "2026-09-06T08:00:00+08:00",
+      "text": "朋友的账号被封号了，只因为转发了一条讨薪视频。",
+      "gloss": "A friend's account was banned just for sharing a video about unpaid wages."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "sample": true,
+  "notice": "Sample data for demo, not real posts",
+  "platform": "sample-microblog (fictional)",
+  "captured_at": "2026-09-05T16:20:00Z",
+  "posts": [
+    {
+      "id": "s002",
+      "account": "sample_teapot_uncle 示例_茶壶大叔",
+      "posted_at": "2026-08-31T19:00:00+08:00",
+      "text": "今天泡了一壶新茶，配月饼刚好。",
+      "gloss": "Brewed a pot of new tea today. Perfect with mooncakes."
+    },
+    {
+      "id": "s004",
+      "account": "sample_blue_bicycle 示例_蓝色单车",
+      "posted_at": "2026-09-01T08:15:00+08:00",
+      "text": "早高峰骑车上班，比地铁还快。",
+      "gloss": "Biked to work in rush hour. Faster than the subway."
+    },
+    {
+      "id": "s007",
+      "account": "sample_paper_kite 示例_纸风筝",
+      "posted_at": "2026-09-02T10:00:00+08:00",
+      "text": "周末去放风筝，天气太好了。",
+      "gloss": "Flew a kite this weekend. Gorgeous weather."
+    },
+    {
+      "id": "s010",
+      "account": "sample_teapot_uncle 示例_茶壶大叔",
+      "posted_at": "2026-09-02T20:30:00+08:00",
+      "text": "示例市医院发烧门诊排了四个小时，病人都坐在走廊。",
+      "gloss": "The fever clinic at a Sample City hospital had a four-hour line. Patients were sitting in the hallway."
+    },
+    {
+      "id": "s011",
+      "account": "sample_noodle_stand 示例_面馆老板",
+      "posted_at": "2026-09-03T06:50:00+08:00",
+      "text": "今天的牛肉面加了新辣椒，欢迎来尝。",
+      "gloss": "Added a new chili to today's beef noodles. Come try it."
+    },
+    {
+      "id": "s013",
+      "account": "sample_night_owl 示例_夜猫子",
+      "posted_at": "2026-09-03T15:00:00+08:00",
+      "text": "有人知道哪家书店开到半夜吗？",
+      "gloss": "Does anyone know a bookstore that stays open until midnight?"
+    },
+    {
+      "id": "s016",
+      "account": "sample_river_watch 示例_样本河观察",
+      "posted_at": "2026-09-04T10:10:00+08:00",
+      "text": "样本河今天水位回落了，河边散步的人又多了。",
+      "gloss": "Sample River's water level dropped today. More people are walking along the bank again."
+    },
+    {
+      "id": "s018",
+      "account": "sample_teapot_uncle 示例_茶壶大叔",
+      "posted_at": "2026-09-04T19:20:00+08:00",
+      "text": "听说示例市疫苗接种点换了供应商，有人知道是哪家吗？",
+      "gloss": "I heard the Sample City vaccine site changed suppliers. Does anyone know which one?"
+    },
+    {
+      "id": "s020",
+      "account": "sample_blue_bicycle 示例_蓝色单车",
+      "posted_at": "2026-09-05T09:30:00+08:00",
+      "text": "新开的自行车道很好用，点赞。",
+      "gloss": "The new bike lane works great. Thumbs up."
+    },
+    {
+      "id": "s021",
+      "account": "sample_night_owl 示例_夜猫子",
+      "posted_at": "2026-09-05T08:00:00+08:00",
+      "text": "示例广场下午有很多人聚集，好像是在请愿。",
+      "gloss": "A lot of people gathered at Sample Square this afternoon. It looked like a petition."
+    },
+    {
+      "id": "s022",
+      "account": "sample_rainy_window 示例_雨窗",
+      "posted_at": "2026-09-05T08:30:00+08:00",
+      "text": "示例广场今天人很多。",
+      "gloss": "Sample Square was crowded today. Some people held signs, and the police came too."
+    },
+    {
+      "id": "s023",
+      "account": "sample_paper_kite 示例_纸风筝",
+      "posted_at": "2026-09-05T20:00:00+08:00",
+      "text": "晚饭做了红烧肉，第一次成功。",
+      "gloss": "Made braised pork for dinner. First time it worked."
+    }
+  ]
+}

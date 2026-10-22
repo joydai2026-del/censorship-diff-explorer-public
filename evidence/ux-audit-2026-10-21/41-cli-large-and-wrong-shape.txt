@@ -1,0 +1,9 @@
+$ node cli/diff.mjs <20 large files> --summary
+2026-10-20  50 deleted
+total: 950 deleted of 5000 posts seen
+real 0.14
+user 0.16
+sys 0.02
+$ node cli/diff.mjs <own-1 + wrongshape>
+snapshot #2 captured_at "undefined" has no time zone. Write it like 2026-09-01T09:00:00+08:00 or ...Z (in wrongshape.json)
+[exit 1]

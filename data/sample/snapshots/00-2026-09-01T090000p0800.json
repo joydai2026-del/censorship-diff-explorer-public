@@ -1,0 +1,36 @@
+{
+  "sample": true,
+  "notice": "Sample data for demo, not real posts",
+  "platform": "sample-microblog (fictional)",
+  "captured_at": "2026-09-01T09:00:00+08:00",
+  "posts": [
+    {
+      "id": "s001",
+      "account": "sample_bamboo_cat 示例_竹林小猫",
+      "posted_at": "2026-08-31T21:10:00+08:00",
+      "text": "示例市化工厂昨晚又冒黑烟，整条街都是味道，孩子咳了一夜。",
+      "gloss": "The Sample City chemical plant was pouring out black smoke again last night. The whole street smells, and my kid coughed all night."
+    },
+    {
+      "id": "s002",
+      "account": "sample_teapot_uncle 示例_茶壶大叔",
+      "posted_at": "2026-08-31T19:00:00+08:00",
+      "text": "今天泡了一壶新茶，配月饼刚好。",
+      "gloss": "Brewed a pot of new tea today. Perfect with mooncakes."
+    },
+    {
+      "id": "s003",
+      "account": "sample_noodle_stand 示例_面馆老板",
+      "posted_at": "2026-09-01T07:30:00+08:00",
+      "text": "虚构县学校食堂用过期的肉，家长们在群里都炸了。",
+      "gloss": "A school cafeteria in Fictional County used expired meat. Parents in the group chat are furious."
+    },
+    {
+      "id": "s004",
+      "account": "sample_blue_bicycle 示例_蓝色单车",
+      "posted_at": "2026-09-01T08:15:00+08:00",
+      "text": "早高峰骑车上班，比地铁还快。",
+      "gloss": "Biked to work in rush hour. Faster than the subway."
+    }
+  ]
+}

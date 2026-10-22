@@ -1,0 +1,16 @@
+{
+  "name": "censorship-diff-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Find posts that disappeared between daily snapshots, and show them on a simple page.",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "test:engine": "node --test test/engine.test.mjs test/cli.test.mjs",
+    "test:ui": "node --test test/ui.test.mjs",
+    "sample": "node scripts/make-sample.mjs",
+    "build": "node cli/diff.mjs data/sample/snapshots --topics data/topics.json --out web/data/diff.json --js web/data/diff.js",
+    "diff": "node cli/diff.mjs"
+  }
+}

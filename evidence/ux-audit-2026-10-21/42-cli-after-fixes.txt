@@ -1,0 +1,38 @@
+$ node cli/diff.mjs data/sample/snapshots --tz-offset 99999 --summary
+--tz-offset must be between -720 and 840, got 99999
+
+Usage: node cli/diff.mjs <snapshot-folder> [options]
+
+[exit 2]
+
+$ node cli/diff.mjs data/sample/snapshots --max-drop -1 --summary
+--max-drop must be between 0 and 1, got -1
+
+Usage: node cli/diff.mjs <snapshot-folder> [options]
+
+[exit 2]
+
+$ node cli/diff.mjs data/sample/snapshots --max-drop 5
+--max-drop must be between 0 and 1, got 5
+
+Usage: node cli/diff.mjs <snapshot-folder> [options]
+
+[exit 2]
+
+$ node cli/diff.mjs data/sample/snapshots --tz-offset 0 --max-drop 1 --summary
+NOTE: Sample data for demo, not real posts
+2026-09-01  0 deleted
+2026-09-02  1 deleted
+2026-09-03  2 deleted
+[exit 0]
+
+$ node cli/diff.mjs <tmp>/nojson --summary
+No .json snapshot files found in <tmp>/nojson
+[exit 1]
+
+$ node cli/diff.mjs <tmp>/one --summary
+Note: only one snapshot (own-1.json), so there is nothing to compare it with yet. Add a later capture to see deletions.
+2026-10-01  0 deleted
+total: 0 deleted of 3 posts seen
+[exit 0]
+

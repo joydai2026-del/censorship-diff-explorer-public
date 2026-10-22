@@ -1,0 +1,440 @@
+[
+ {
+  "n": 2,
+  "fn": "stats",
+  "dev": "desktop",
+  "did": "read tiles",
+  "saw": {
+   "deleted": "19",
+   "tracked": "30",
+   "ignored": "1"
+  }
+ },
+ {
+  "n": 25,
+  "fn": "keyboard",
+  "dev": "desktop",
+  "did": "Enter on Sep 3 bar, Tab to next bar + Enter, Enter on Environment chip",
+  "saw": {
+   "focus_after_bar": "2026-09-03",
+   "heading_after_tab_enter": "Sep 4 · 4 deleted posts",
+   "focus_after_chip": "environment"
+  }
+ },
+ {
+  "n": 26,
+  "fn": "tap-targets",
+  "dev": "desktop",
+  "did": "controls under 44px tall",
+  "saw": [
+   [
+    "gloss-toggle",
+    20,
+    20
+   ]
+  ]
+ },
+ {
+  "n": 27,
+  "fn": "overflow",
+  "dev": "desktop",
+  "did": "scrollWidth vs viewport",
+  "saw": [
+   1440,
+   1440
+  ]
+ },
+ {
+  "n": 32,
+  "fn": "bad-hash-topic",
+  "dev": "desktop",
+  "did": "open #topic=doesnotexist",
+  "saw": {
+   "heading": "All days · 19 deleted posts",
+   "hash": ""
+  }
+ },
+ {
+  "n": 16,
+  "fn": "load-own-files",
+  "dev": "desktop",
+  "did": "pick own-1 + own-2",
+  "saw": {
+   "deleted": "2",
+   "cards": [
+    "a1",
+    "a3"
+   ]
+  }
+ },
+ {
+  "n": 10,
+  "fn": "search-emoji-own",
+  "dev": "desktop",
+  "did": "type 🌞",
+  "saw": {
+   "cards": [
+    "a1"
+   ]
+  }
+ },
+ {
+  "n": 17,
+  "fn": "single-file",
+  "dev": "desktop",
+  "did": "pick ['own-1.json']",
+  "saw": {
+   "err": "",
+   "deleted": "0",
+   "empty_msg": "Only one capture, so there is nothing to compare it with yet. Add a later capture to see what was deleted.",
+   "notes_tail": "never seen, so they cannot appear here.\nShowing your 1 file."
+  }
+ },
+ {
+  "n": 18,
+  "fn": "empty-file",
+  "dev": "desktop",
+  "did": "pick ['empty.json']",
+  "saw": {
+   "err": "Could not use those files: empty.json: Unexpected end of JSON input",
+   "deleted": "19",
+   "empty_msg": null,
+   "notes_tail": "een two captures are never seen, so they cannot appear here."
+  }
+ },
+ {
+  "n": 19,
+  "fn": "malformed-file",
+  "dev": "desktop",
+  "did": "pick ['malformed.json']",
+  "saw": {
+   "err": "Could not use those files: malformed.json: Expected ',' or ']' after array element in JSON at position 68 (line 1 column 69)",
+   "deleted": "19",
+   "empty_msg": null,
+   "notes_tail": "een two captures are never seen, so they cannot appear here."
+  }
+ },
+ {
+  "n": 20,
+  "fn": "wrong-shape",
+  "dev": "desktop",
+  "did": "pick ['own-1.json', 'wrongshape.json']",
+  "saw": {
+   "err": "Could not use those files: wrongshape.json: snapshot #2 is missing captured_at (the time it was taken, like 2026-09-01T09:00:00+08:00)",
+   "deleted": "19",
+   "empty_msg": null,
+   "notes_tail": "een two captures are never seen, so they cannot appear here."
+  }
+ },
+ {
+  "n": 21,
+  "fn": "duplicate-files",
+  "dev": "desktop",
+  "did": "pick ['own-1.json', 'own-1.json', 'own-2.json']",
+  "saw": {
+   "err": "",
+   "deleted": "2",
+   "empty_msg": null,
+   "notes_tail": "ever seen, so they cannot appear here.\nShowing your 3 files."
+  }
+ },
+ {
+  "n": 28,
+  "fn": "console-errors",
+  "dev": "desktop",
+  "did": "all steps",
+  "saw": []
+ },
+ {
+  "n": 2,
+  "fn": "stats",
+  "dev": "iphone15",
+  "did": "read tiles",
+  "saw": {
+   "deleted": "19",
+   "tracked": "30",
+   "ignored": "1"
+  }
+ },
+ {
+  "n": 25,
+  "fn": "keyboard",
+  "dev": "iphone15",
+  "did": "Enter on Sep 3 bar, Tab to next bar + Enter, Enter on Environment chip",
+  "saw": {
+   "focus_after_bar": "2026-09-03",
+   "heading_after_tab_enter": "Sep 4 · 4 deleted posts",
+   "focus_after_chip": "environment"
+  }
+ },
+ {
+  "n": 26,
+  "fn": "tap-targets",
+  "dev": "iphone15",
+  "did": "controls under 44px tall",
+  "saw": [
+   [
+    "gloss-toggle",
+    20,
+    20
+   ]
+  ]
+ },
+ {
+  "n": 27,
+  "fn": "overflow",
+  "dev": "iphone15",
+  "did": "scrollWidth vs viewport",
+  "saw": [
+   393,
+   393
+  ]
+ },
+ {
+  "n": 32,
+  "fn": "bad-hash-topic",
+  "dev": "iphone15",
+  "did": "open #topic=doesnotexist",
+  "saw": {
+   "heading": "All days · 19 deleted posts",
+   "hash": ""
+  }
+ },
+ {
+  "n": 16,
+  "fn": "load-own-files",
+  "dev": "iphone15",
+  "did": "pick own-1 + own-2",
+  "saw": {
+   "deleted": "2",
+   "cards": [
+    "a1",
+    "a3"
+   ]
+  }
+ },
+ {
+  "n": 10,
+  "fn": "search-emoji-own",
+  "dev": "iphone15",
+  "did": "type 🌞",
+  "saw": {
+   "cards": [
+    "a1"
+   ]
+  }
+ },
+ {
+  "n": 17,
+  "fn": "single-file",
+  "dev": "iphone15",
+  "did": "pick ['own-1.json']",
+  "saw": {
+   "err": "",
+   "deleted": "0",
+   "empty_msg": "Only one capture, so there is nothing to compare it with yet. Add a later capture to see what was deleted.",
+   "notes_tail": "never seen, so they cannot appear here.\nShowing your 1 file."
+  }
+ },
+ {
+  "n": 18,
+  "fn": "empty-file",
+  "dev": "iphone15",
+  "did": "pick ['empty.json']",
+  "saw": {
+   "err": "Could not use those files: empty.json: Unexpected end of JSON input",
+   "deleted": "19",
+   "empty_msg": null,
+   "notes_tail": "een two captures are never seen, so they cannot appear here."
+  }
+ },
+ {
+  "n": 19,
+  "fn": "malformed-file",
+  "dev": "iphone15",
+  "did": "pick ['malformed.json']",
+  "saw": {
+   "err": "Could not use those files: malformed.json: Expected ',' or ']' after array element in JSON at position 68 (line 1 column 69)",
+   "deleted": "19",
+   "empty_msg": null,
+   "notes_tail": "een two captures are never seen, so they cannot appear here."
+  }
+ },
+ {
+  "n": 20,
+  "fn": "wrong-shape",
+  "dev": "iphone15",
+  "did": "pick ['own-1.json', 'wrongshape.json']",
+  "saw": {
+   "err": "Could not use those files: wrongshape.json: snapshot #2 is missing captured_at (the time it was taken, like 2026-09-01T09:00:00+08:00)",
+   "deleted": "19",
+   "empty_msg": null,
+   "notes_tail": "een two captures are never seen, so they cannot appear here."
+  }
+ },
+ {
+  "n": 21,
+  "fn": "duplicate-files",
+  "dev": "iphone15",
+  "did": "pick ['own-1.json', 'own-1.json', 'own-2.json']",
+  "saw": {
+   "err": "",
+   "deleted": "2",
+   "empty_msg": null,
+   "notes_tail": "ever seen, so they cannot appear here.\nShowing your 3 files."
+  }
+ },
+ {
+  "n": 28,
+  "fn": "console-errors",
+  "dev": "iphone15",
+  "did": "all steps",
+  "saw": []
+ },
+ {
+  "n": 2,
+  "fn": "stats",
+  "dev": "pixel7",
+  "did": "read tiles",
+  "saw": {
+   "deleted": "19",
+   "tracked": "30",
+   "ignored": "1"
+  }
+ },
+ {
+  "n": 25,
+  "fn": "keyboard",
+  "dev": "pixel7",
+  "did": "Enter on Sep 3 bar, Tab to next bar + Enter, Enter on Environment chip",
+  "saw": {
+   "focus_after_bar": "2026-09-03",
+   "heading_after_tab_enter": "Sep 4 · 4 deleted posts",
+   "focus_after_chip": "environment"
+  }
+ },
+ {
+  "n": 26,
+  "fn": "tap-targets",
+  "dev": "pixel7",
+  "did": "controls under 44px tall",
+  "saw": [
+   [
+    "gloss-toggle",
+    20,
+    20
+   ]
+  ]
+ },
+ {
+  "n": 27,
+  "fn": "overflow",
+  "dev": "pixel7",
+  "did": "scrollWidth vs viewport",
+  "saw": [
+   412,
+   412
+  ]
+ },
+ {
+  "n": 32,
+  "fn": "bad-hash-topic",
+  "dev": "pixel7",
+  "did": "open #topic=doesnotexist",
+  "saw": {
+   "heading": "All days · 19 deleted posts",
+   "hash": ""
+  }
+ },
+ {
+  "n": 16,
+  "fn": "load-own-files",
+  "dev": "pixel7",
+  "did": "pick own-1 + own-2",
+  "saw": {
+   "deleted": "2",
+   "cards": [
+    "a1",
+    "a3"
+   ]
+  }
+ },
+ {
+  "n": 10,
+  "fn": "search-emoji-own",
+  "dev": "pixel7",
+  "did": "type 🌞",
+  "saw": {
+   "cards": [
+    "a1"
+   ]
+  }
+ },
+ {
+  "n": 17,
+  "fn": "single-file",
+  "dev": "pixel7",
+  "did": "pick ['own-1.json']",
+  "saw": {
+   "err": "",
+   "deleted": "0",
+   "empty_msg": "Only one capture, so there is nothing to compare it with yet. Add a later capture to see what was deleted.",
+   "notes_tail": "never seen, so they cannot appear here.\nShowing your 1 file."
+  }
+ },
+ {
+  "n": 18,
+  "fn": "empty-file",
+  "dev": "pixel7",
+  "did": "pick ['empty.json']",
+  "saw": {
+   "err": "Could not use those files: empty.json: Unexpected end of JSON input",
+   "deleted": "19",
+   "empty_msg": null,
+   "notes_tail": "een two captures are never seen, so they cannot appear here."
+  }
+ },
+ {
+  "n": 19,
+  "fn": "malformed-file",
+  "dev": "pixel7",
+  "did": "pick ['malformed.json']",
+  "saw": {
+   "err": "Could not use those files: malformed.json: Expected ',' or ']' after array element in JSON at position 68 (line 1 column 69)",
+   "deleted": "19",
+   "empty_msg": null,
+   "notes_tail": "een two captures are never seen, so they cannot appear here."
+  }
+ },
+ {
+  "n": 20,
+  "fn": "wrong-shape",
+  "dev": "pixel7",
+  "did": "pick ['own-1.json', 'wrongshape.json']",
+  "saw": {
+   "err": "Could not use those files: wrongshape.json: snapshot #2 is missing captured_at (the time it was taken, like 2026-09-01T09:00:00+08:00)",
+   "deleted": "19",
+   "empty_msg": null,
+   "notes_tail": "een two captures are never seen, so they cannot appear here."
+  }
+ },
+ {
+  "n": 21,
+  "fn": "duplicate-files",
+  "dev": "pixel7",
+  "did": "pick ['own-1.json', 'own-1.json', 'own-2.json']",
+  "saw": {
+   "err": "",
+   "deleted": "2",
+   "empty_msg": null,
+   "notes_tail": "ever seen, so they cannot appear here.\nShowing your 3 files."
+  }
+ },
+ {
+  "n": 28,
+  "fn": "console-errors",
+  "dev": "pixel7",
+  "did": "all steps",
+  "saw": []
+ }
+]

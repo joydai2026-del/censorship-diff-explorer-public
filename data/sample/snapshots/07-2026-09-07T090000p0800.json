@@ -1,0 +1,23 @@
+{
+  "sample": true,
+  "notice": "Sample data for demo, not real posts",
+  "platform": "sample-microblog (fictional)",
+  "captured_at": "2026-09-07T09:00:00+08:00",
+  "note": "Deliberately broken capture: the pretend scraper only saved 2 posts. The engine should ignore it.",
+  "posts": [
+    {
+      "id": "s002",
+      "account": "sample_teapot_uncle 示例_茶壶大叔",
+      "posted_at": "2026-08-31T19:00:00+08:00",
+      "text": "今天泡了一壶新茶，配月饼刚好。",
+      "gloss": "Brewed a pot of new tea today. Perfect with mooncakes."
+    },
+    {
+      "id": "s004",
+      "account": "sample_blue_bicycle 示例_蓝色单车",
+      "posted_at": "2026-09-01T08:15:00+08:00",
+      "text": "早高峰骑车上班，比地铁还快。",
+      "gloss": "Biked to work in rush hour. Faster than the subway."
+    }
+  ]
+}
